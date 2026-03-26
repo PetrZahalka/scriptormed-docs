@@ -1,0 +1,184 @@
+/* ══════════════════════════════════════════
+   Temvara Systems — Brand Colors for MkDocs
+   ══════════════════════════════════════════ */
+
+/* Light mode */
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #173B6C;
+  --md-primary-fg-color--light: #2A5A9E;
+  --md-primary-fg-color--dark: #0F2A50;
+  --md-primary-bg-color: #FFFFFF;
+  --md-accent-fg-color: #1497A3;
+  --md-accent-fg-color--transparent: rgba(20, 151, 163, 0.1);
+
+  /* Admonitions */
+  --md-admonition-fg-color: #173B6C;
+
+  /* Typography */
+  --md-typeset-color: #173B6C;
+  --md-typeset-a-color: #1497A3;
+
+  /* Code */
+  --md-code-bg-color: #F7F9FC;
+  --md-code-fg-color: #173B6C;
+
+  /* Footer */
+  --md-footer-bg-color: #173B6C;
+  --md-footer-bg-color--dark: #0F2A50;
+  --md-footer-fg-color: #FFFFFF;
+  --md-footer-fg-color--light: rgba(255, 255, 255, 0.7);
+  --md-footer-fg-color--lighter: rgba(255, 255, 255, 0.5);
+}
+
+/* Dark mode */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #2A5A9E;
+  --md-primary-fg-color--light: #3A6DB8;
+  --md-primary-fg-color--dark: #173B6C;
+  --md-accent-fg-color: #1BBFCC;
+  --md-accent-fg-color--transparent: rgba(27, 191, 204, 0.1);
+
+  --md-default-bg-color: #0F1B2D;
+  --md-default-bg-color--light: #162540;
+  --md-default-bg-color--lighter: #1D3050;
+  --md-default-bg-color--lightest: #243654;
+
+  --md-footer-bg-color: #0A1220;
+  --md-footer-bg-color--dark: #060D18;
+
+  --md-typeset-a-color: #1BBFCC;
+}
+
+/* ══════════════════════════════════════════
+   Typography
+   ══════════════════════════════════════════ */
+
+.md-typeset h1 {
+  color: var(--md-primary-fg-color);
+  font-weight: 800;
+  letter-spacing: -0.3px;
+}
+
+.md-typeset h2 {
+  color: var(--md-primary-fg-color);
+  font-weight: 700;
+  border-bottom: 2px solid var(--md-accent-fg-color);
+  padding-bottom: 0.3em;
+}
+
+.md-typeset h3 {
+  color: var(--md-accent-fg-color);
+  font-weight: 700;
+}
+
+/* ══════════════════════════════════════════
+   Navigation & Header
+   ══════════════════════════════════════════ */
+
+.md-header {
+  background-color: var(--md-primary-fg-color);
+}
+
+.md-tabs {
+  background-color: var(--md-primary-fg-color);
+}
+
+/* Logo sizing */
+.md-header__button.md-logo img {
+  height: 1.6rem;
+}
+
+/* ══════════════════════════════════════════
+   Admonitions — Temvara style
+   ══════════════════════════════════════════ */
+
+/* Tip = teal */
+.md-typeset .admonition.tip,
+.md-typeset details.tip {
+  border-color: #1497A3;
+}
+.md-typeset .tip > .admonition-title,
+.md-typeset .tip > summary {
+  background-color: rgba(20, 151, 163, 0.1);
+}
+.md-typeset .tip > .admonition-title::before,
+.md-typeset .tip > summary::before {
+  background-color: #1497A3;
+}
+
+/* Info = Desktop Blue */
+.md-typeset .admonition.info,
+.md-typeset details.info {
+  border-color: #2F80ED;
+}
+.md-typeset .info > .admonition-title,
+.md-typeset .info > summary {
+  background-color: rgba(47, 128, 237, 0.1);
+}
+
+/* ══════════════════════════════════════════
+   Content styling
+   ══════════════════════════════════════════ */
+
+/* Tables */
+.md-typeset table:not([class]) th {
+  background-color: var(--md-primary-fg-color);
+  color: white;
+  font-weight: 700;
+}
+
+.md-typeset table:not([class]) tr:nth-child(even) td {
+  background-color: #F7F9FC;
+}
+
+[data-md-color-scheme="slate"] .md-typeset table:not([class]) tr:nth-child(even) td {
+  background-color: rgba(255, 255, 255, 0.03);
+}
+
+/* Keyboard keys */
+.md-typeset .keys kbd {
+  border-color: #DDE3ED;
+  color: var(--md-primary-fg-color);
+}
+
+/* Search highlight */
+.md-search-result .md-typeset mark {
+  background-color: rgba(20, 151, 163, 0.3);
+}
+
+/* ══════════════════════════════════════════
+   Step indicators (custom class)
+   ══════════════════════════════════════════ */
+
+.step-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+  background-color: var(--md-accent-fg-color);
+  color: white;
+  font-weight: 800;
+  font-size: 0.9em;
+  margin-right: 0.5em;
+  flex-shrink: 0;
+}
+
+.step {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1em;
+  padding: 0.8em 1em;
+  border-left: 3px solid var(--md-accent-fg-color);
+  background: var(--md-accent-fg-color--transparent);
+  border-radius: 0 8px 8px 0;
+}
+
+.step-content {
+  flex: 1;
+}
+
+.step-content strong {
+  color: var(--md-primary-fg-color);
+}
