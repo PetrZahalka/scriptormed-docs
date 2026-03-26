@@ -12,7 +12,7 @@ theme:
   name: material
   language: cs
   custom_dir: overrides
-  logo: assets/images/logo_dark.png
+  logo: assets/images/logo_header.svg
   favicon: assets/images/favicon.png
 
   palette:
