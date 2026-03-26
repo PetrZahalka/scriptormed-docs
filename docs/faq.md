@@ -23,9 +23,18 @@ description: Časté problémy a jejich řešení v ScriptorMed
     - **Vypršený trial** — přejděte na [portál](https://app.scriptormed.com) a vyberte placený plán
     - **Výpadek serveru** — zkuste to za několik minut znovu
 
+??? question "Zapomněl/a jsem heslo k portálu"
+    1. Přejděte na [app.scriptormed.com](https://app.scriptormed.com)
+    2. Klikněte na **Zapomenuté heslo**
+    3. Zadejte e-mail použitý při registraci
+    4. Na e-mail obdržíte odkaz pro nastavení nového hesla
+
+    Více v sekci [Registrace — Reset hesla](portal/registrace.md#reset-hesla).
+
 ??? question "Zapomněl/a jsem licenční klíč"
     1. Přihlaste se na [portál](https://app.scriptormed.com) — klíč najdete v sekci **Licenční klíče**
-    2. Pokud se nemůžete přihlásit, [kontaktujte podporu](kontakt.md) s uvedením názvu vaší ordinace
+    2. Pokud se nemůžete přihlásit, využijte [reset hesla](portal/registrace.md#reset-hesla)
+    3. Pokud ani to nepomůže, [kontaktujte podporu](kontakt.md) s uvedením názvu vaší ordinace
 
 ---
 
@@ -56,9 +65,19 @@ description: Časté problémy a jejich řešení v ScriptorMed
     
     Pokud zpracování trvá více než **5 minut**, může jít o chybu. Zkontrolujte stav konzultace — pokud ukazuje „chyba", zkuste nahrát znovu.
 
+??? question "Mám pozastavit nahrávání během vyšetření?"
+    Doporučujeme ano — během fyzického vyšetření pacienta stiskněte **Pauza**. Vyšetření obvykle neprodukuje užitečný zvuk pro přepis. Po vyšetření pokračujte nahrávání a slovně popište nález.
+
 ---
 
 ## Klinická zpráva
+
+??? question "Zpráva nemá správný formát pro moji odbornost"
+    Formát zprávy se řídí odborností zvolenou při registraci. Pokud potřebujete jiný formát:
+
+    1. V [nastavení aplikace](desktop/nastaveni.md#prizpusobeni-vystupu) vložte vzorovou zprávu ve vašem preferovaném formátu
+    2. Systém se přizpůsobí vaší struktuře a stylu
+    3. Pokud potřebujete změnit odbornost, [kontaktujte podporu](kontakt.md)
 
 ??? question "Zpráva obsahuje nepřesné údaje"
     AI přepis nemusí být 100% přesný. Nejčastější chyby:
@@ -79,7 +98,19 @@ description: Časté problémy a jejich řešení v ScriptorMed
     Zkuste nahrát konzultaci znovu s lepším mikrofonem nebo v tišším prostředí.
 
 ??? question "Chci změnit formát zprávy"
-    V [nastavení aplikace](desktop/nastaveni.md#prizpusobeni-vystupu) můžete vložit vzorovou zprávu. Systém podle ní přizpůsobí výstup vašemu preferovanému stylu.
+    V [nastavení aplikace](desktop/nastaveni.md#prizpusobeni-vystupu) můžete vložit vzorovou zprávu. Systém podle ní přizpůsobí výstup vašemu preferovanému stylu — nezávisle na odbornosti.
+
+---
+
+## Mikrofon
+
+??? question "Jaký mikrofon doporučujete?"
+    Pro nejlepší výsledky doporučujeme konferenční mikrofon **Jabra** (např. Jabra Speak 510 nebo Jabra Speak2 75). Zachytí řeč lékaře i pacienta a má výborné potlačení šumu.
+
+    Podrobnější přehled mikrofonů najdete v sekci [Instalace — Doporučení k mikrofonu](desktop/instalace.md#doporuceni-k-mikrofonu).
+
+??? question "Mohu si vybrat mikrofon v aplikaci?"
+    Aktuálně aplikace používá výchozí systémový mikrofon. Výběr konkrétního mikrofonu přímo v aplikaci připravujeme pro budoucí verzi. Zatím nastavte preferovaný mikrofon jako výchozí v nastavení operačního systému.
 
 ---
 
@@ -107,10 +138,20 @@ description: Časté problémy a jejich řešení v ScriptorMed
 ??? question "Vyčerpal/a jsem konzultace"
     Máte dvě možnosti:
     
-    1. **Dokoupit top-up** — na portálu v sekci [Předplatné](portal/predplatne.md)
+    1. **Dokoupit top-up** — na portálu v sekci [Předplatné](portal/predplatne.md), platba kartou
     2. **Počkat na nové období** — konzultace se resetují každých 30 dní
 
     Pokud pravidelně překračujete limit, zvažte upgrade na vyšší plán.
+
+---
+
+## Platby
+
+??? question "Mohu platit kartou?"
+    Ano — platební karta je hlavní platební metoda. Kartou lze hradit měsíční, čtvrtletní i roční předplatné a top-up kredity. Platba kartou se aktivuje okamžitě.
+
+??? question "Mohu platit bankovním převodem?"
+    Bankovní převod (s QR fakturou) je dostupný jako alternativa, pokud z nějakého důvodu nelze použít kartu. Při bankovním převodu počítejte s prodlevou 1–2 pracovní dny.
 
 ---
 

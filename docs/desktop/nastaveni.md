@@ -21,7 +21,7 @@ Nastavení otevřete kliknutím na ikonu :material-cog: v pravém horním rohu h
 
 ## Přizpůsobení výstupu { #prizpusobeni-vystupu }
 
-ScriptorMed umožňuje přizpůsobit formát výstupní zprávy vašemu stylu psaní.
+ScriptorMed přizpůsobí formát výstupní zprávy podle vaší odbornosti zvolené při registraci. Navíc si můžete formát dále upravit vložením vzorové zprávy.
 
 ### Vzorová zpráva
 
@@ -40,7 +40,7 @@ V nastavení naleznete textové pole pro vložení vzoru vaší typické klinick
 - Formát a pořadí sekcí zprávy
 - Míru detailu v jednotlivých částech
 - Styl formulací (stručný vs. rozsáhlý)
-- Zvyklosti specifické pro vaši praxi
+- Odbornostně specifické sekce (např. Status localis u dermatologie, EKG popis u kardiologie)
 
 ---
 
@@ -51,6 +51,7 @@ V nastavení se zobrazují informace o vaší licenci:
 - **Plán** — aktuální předplatné (Trial, Start, Professional, Team)
 - **Zbývající konzultace** — počet konzultací dostupných v aktuálním období
 - **Top-up kredit** — zakoupený kredit nad rámec plánu
+- **Odbornost** — vaše lékařská specializace (nastavuje se při registraci na portálu)
 
 Podrobnosti o správě předplatného najdete v sekci [Portál — Předplatné](../portal/predplatne.md).
 
@@ -110,3 +111,14 @@ Funkce provede:
 ## Verze aplikace
 
 Aktuální verzi aplikace naleznete v dolní části nastavení. Při kontaktování podpory prosím uveďte číslo verze.
+
+---
+
+## Připravované funkce
+
+V budoucích verzích nastavení přibude:
+
+- **Výběr mikrofonu** — možnost zvolit konkrétní mikrofon připojený k počítači
+- **E-mail administračního účtu** — zobrazení e-mailu propojeného s portálem
+- **Režim odesílání** — volba mezi automatickým a manuálním odesláním nahrávky
+- **Kontrola aktualizací** — ruční spuštění kontroly dostupnosti nové verze

@@ -35,16 +35,25 @@ Nahrávání je základní operace v ScriptorMed. Aplikace zachycuje zvuk z mikr
 <div class="step" markdown>
 <span class="step-number">4</span>
 <div class="step-content" markdown>
-**Pauza** *(volitelné)* — tlačítkem **Pauza** můžete nahrávání dočasně zastavit (např. při telefonátu). Pokračujte tlačítkem **Pokračovat**.
+**Pauza** *(volitelné)* — tlačítkem **Pauza** můžete nahrávání kdykoli dočasně zastavit — při telefonátu, během fyzického vyšetření, při přerušení jinou osobou. Pokračujte tlačítkem **Pokračovat**. Počet pauz není omezen.
 </div>
 </div>
 
 <div class="step" markdown>
 <span class="step-number">5</span>
 <div class="step-content" markdown>
-**Zastavení** — klikněte na **Zastavit**. Nahrávka se automaticky odešle na server ke zpracování.
+**Zastavení** — klikněte na **Zastavit**. Nahrávka se odešle na server ke zpracování.
 </div>
 </div>
+
+---
+
+## Odeslání nahrávky
+
+Po ukončení nahrávání se nahrávka odešle na server. Aktuálně se odesílá automaticky po zastavení.
+
+!!! info "Připravujeme"
+    V budoucí verzi bude možné v nastavení zvolit mezi automatickým odesláním (výchozí) a manuálním odesláním, kdy si nahrávku před odesláním ještě zkontrolujete.
 
 ---
 
@@ -65,15 +74,24 @@ Typická doba zpracování je **30–90 sekund** v závislosti na délce konzult
 
 ## Tipy pro kvalitní nahrávku
 
+!!! tip "Mikrofon"
+    - Doporučujeme konferenční mikrofon **Jabra** pro nejlepší výsledky
+    - Umístěte mikrofon mezi lékaře a pacienta
+    - Výběr mikrofonu v aplikaci bude možný v budoucí verzi — aktuálně se používá výchozí systémový mikrofon
+
 !!! tip "Prostředí"
     - Minimalizujte hluk pozadí (klimatizace, rádio)
-    - Pokud je v ordinaci více osob, umístěte mikrofon do středu
     - Zavřete okna při rušné ulici
+    - V tichém prostředí postačí i vestavěný mikrofon notebooku
 
 !!! tip "Řeč"
     - Mluvte plynule — systém lépe rozpozná souvislou řeč
     - Diktujte odborné termíny zřetelně, zejména neobvyklé názvy léků
     - Není potřeba mluvit pomalu — normální tempo konverzace je ideální
+
+!!! tip "Pauza při vyšetření"
+    - Během fyzického vyšetření pacienta použijte **Pauzu** — vyšetření obvykle neprodukuje užitečný zvuk pro přepis
+    - Po vyšetření pokračujte nahrávání a nadiktujte nález
 
 !!! tip "Délka nahrávky"
     - Optimální délka: 3–15 minut
@@ -85,13 +103,16 @@ Typická doba zpracování je **30–90 sekund** v závislosti na délce konzult
 ## Často kladené otázky
 
 ??? question "Musím mluvit přímo do mikrofonu?"
-    Ne. Běžná vzdálenost v ordinaci (1–2 metry) postačí s vestavěným mikrofonem. Stolní mikrofon poskytuje lepší výsledky na větší vzdálenost.
+    Ne. S konferenčním mikrofonem Jabra postačí vzdálenost 2–3 metry. S vestavěným mikrofonem notebooku doporučujeme max 1–2 metry.
 
 ??? question "Nahrává se i pacient?"
     Ano, systém zachytí celou konverzaci. Přepis obsahuje řeč všech osob v místnosti. AI následně rozliší kontext a vytvoří strukturovanou zprávu.
 
 ??? question "Co když během nahrávání zazvoní telefon?"
     Použijte tlačítko **Pauza**. Nahrávání se zastaví a po vyřízení telefonátu pokračujte tlačítkem **Pokračovat**.
+
+??? question "Mám pozastavit nahrávání během fyzického vyšetření?"
+    Doporučujeme ano. Během vyšetření obvykle není řeč, která by přispěla ke zprávě. Po vyšetření pokračujte nahrávání a slovně popište nález — systém ho zapracuje do zprávy.
 
 ??? question "Mohu nahrávku smazat?"
     Nahrávku nelze smazat po odeslání na server. Pokud jste nahráli chybně, jednoduše ignorujte výslednou zprávu a nahrajte konzultaci znovu.

@@ -76,7 +76,9 @@ graph LR
 
 ## Pro koho je ScriptorMed určen
 
-ScriptorMed je navržen pro **lékaře v dermatologických ambulancích**. Výstupní zpráva dodržuje standardní český dermatologický formát včetně kompletní anamnézy, objektivního nálezu, závěru a doporučení.
+ScriptorMed je navržen pro **lékaře napříč odbornostmi**. Systém přizpůsobí strukturu a formát výstupní zprávy podle vaší specializace a vašich zvyklostí.
 
-!!! info "Další odbornosti"
-    Systém je připraven na rozšíření do dalších lékařských odborností. Pokud máte zájem o podporu pro váš obor, [kontaktujte nás](kontakt.md).
+Aktuálně podporované odbornosti zahrnují dermatologii, praktické lékařství a další obory — a seznam se neustále rozšiřuje. Pokud vaše odbornost není v nabídce při registraci, zvolte „Jiný" a systém použije univerzální šablonu, kterou si můžete dále přizpůsobit.
+
+!!! info "Přizpůsobení výstupu"
+    Každý lékař si může formát zprávy přizpůsobit svým potřebám vložením vzorové zprávy v [nastavení aplikace](desktop/nastaveni.md#prizpusobeni-vystupu). ScriptorMed se naučí váš styl a strukturu.

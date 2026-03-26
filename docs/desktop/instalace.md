@@ -13,7 +13,7 @@ description: Jak nainstalovat ScriptorMed Desktop na Windows a macOS
 | **Procesor** | Intel Core i3 / AMD Ryzen 3 nebo novější |
 | **Paměť RAM** | 4 GB (doporučeno 8 GB) |
 | **Místo na disku** | 200 MB pro aplikaci + prostor pro nahrávky |
-| **Mikrofon** | Vestavěný nebo externí mikrofon |
+| **Mikrofon** | Vestavěný nebo externí mikrofon (doporučen Jabra) |
 | **Internet** | Stabilní připojení (min. 2 Mbit/s upload) |
 | **Displej** | 1280 × 720 px nebo vyšší |
 
@@ -50,11 +50,14 @@ description: Jak nainstalovat ScriptorMed Desktop na Windows a macOS
 
 ## Doporučení k mikrofonu
 
-Pro nejlepší kvalitu přepisu doporučujeme:
+Pro nejlepší kvalitu přepisu doporučujeme konferenční mikrofon **Jabra** (např. Jabra Speak 510 nebo Jabra Speak2 75). Jabra mikrofony jsou optimalizované pro zachycení řeči více osob v místnosti a poskytují konzistentně nejlepší výsledky.
 
-- **Stolní mikrofon** umístěný mezi lékaře a pacienta — nejlepší výsledky
-- **Vestavěný mikrofon notebooku** — postačí v menších ordinacích
-- **Headset** — dobrá kvalita, ale zachycuje hlavně řeč lékaře
+| Typ mikrofonu | Kvalita přepisu | Vhodnost |
+|---------------|----------------|----------|
+| **Jabra Speak (doporučeno)** | Výborná | Ordinace s lékařem i pacientem |
+| **Stolní konferenční mikrofon** | Velmi dobrá | Větší ordinace, více osob |
+| **Headset** | Dobrá | Zachytí hlavně řeč lékaře |
+| **Vestavěný mikrofon notebooku** | Dostačující | Menší ordinace, blízká vzdálenost |
 
 !!! tip "Prostředí ordinace"
-    Minimalizujte hluk pozadí (klimatizace, rádio, otevřená okna). Kvalita přepisu se výrazně zlepší v tišším prostředí.
+    Minimalizujte hluk pozadí (klimatizace, rádio, otevřená okna). Kvalita přepisu se výrazně zlepší v tišším prostředí. Mikrofon umístěte mezi lékaře a pacienta.

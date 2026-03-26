@@ -5,7 +5,7 @@ description: ScriptorMed Desktop — desktopová aplikace pro nahrávání konzu
 
 # ScriptorMed Desktop
 
-**ScriptorMed Desktop** je desktopová aplikace pro Windows a macOS, kterou používáte přímo v ordinaci. Aplikace nahraje zvukový záznam z konzultace, odešle ho ke zpracování a zobrazí vygenerovanou klinickou zprávu.
+**ScriptorMed Desktop** je desktopová aplikace pro Windows a macOS, kterou používáte přímo v ordinaci. Aplikace nahraje zvukový záznam z konzultace, odešle ho ke zpracování a zobrazí vygenerovanou klinickou zprávu přizpůsobenou vaší odbornosti.
 
 ---
 
@@ -13,7 +13,7 @@ description: ScriptorMed Desktop — desktopová aplikace pro nahrávání konzu
 
 - **Nahrávání konzultací** — přímý záznam z mikrofonu počítače
 - **Automatické odesílání** — po ukončení nahrávání se zvuk odešle na server
-- **Zobrazení zprávy** — strukturovaná klinická zpráva v českém dermatologickém formátu
+- **Zobrazení zprávy** — strukturovaná klinická zpráva ve formátu odpovídajícím vaší odbornosti
 - **Úprava textu** — zprávu můžete upravit přímo v aplikaci
 - **Kopírování do NIS** — přenos textu do vašeho nemocničního informačního systému
 - **Automatické aktualizace** — aplikace se aktualizuje sama na pozadí

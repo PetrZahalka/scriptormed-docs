@@ -28,7 +28,7 @@ Registrace vytvoří účet pro vaši ordinaci a spustí zkušební období.
 <div class="step" markdown>
 <span class="step-number">3</span>
 <div class="step-content" markdown>
-**Vyberte odbornost** — z rozbalovací nabídky zvolte vaši lékařskou specializaci. Pokud není v seznamu, zvolte „Jiný" a zadejte ručně.
+**Vyberte odbornost** — z rozbalovací nabídky zvolte vaši lékařskou specializaci (dermatologie, praktické lékařství, kardiologie a další). Pokud vaše odbornost není v seznamu, zvolte „Jiný" a zadejte ručně — systém použije univerzální šablonu, kterou si můžete dále přizpůsobit.
 </div>
 </div>
 
@@ -54,3 +54,17 @@ Po registraci začíná **14denní zkušební období** s těmito parametry:
 
 !!! info "Po skončení trial"
     Po uplynutí zkušebního období vás portál vyzve k výběru placeného plánu. Vaše data zůstanou zachována.
+
+---
+
+## Zapomenuté heslo { #reset-hesla }
+
+Pokud jste zapomněli heslo k portálu:
+
+1. Přejděte na [app.scriptormed.com](https://app.scriptormed.com)
+2. Klikněte na **Zapomenuté heslo**
+3. Zadejte e-mail, který jste použili při registraci
+4. Na e-mail obdržíte odkaz pro nastavení nového hesla
+
+!!! tip "Odkaz je jednorázový"
+    Odkaz pro reset hesla je platný omezenou dobu. Pokud vyprší, požádejte o nový.
