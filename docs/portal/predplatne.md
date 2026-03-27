@@ -5,7 +5,7 @@ description: Plány, ceny a správa předplatného ScriptorMed
 
 # Předplatné a fakturace
 
-## Plány
+## Plány { #tarify }
 
 | Plán | Cena / měsíc | Konzultací | Zařízení | Overage |
 |------|-------------|------------|----------|---------|
@@ -20,7 +20,7 @@ description: Plány, ceny a správa předplatného ScriptorMed
 
 ---
 
-## Jak funguje čerpání
+## Jak funguje čerpání { #cerpani }
 
 Konzultace se čerpají v tomto pořadí:
 

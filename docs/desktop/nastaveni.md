@@ -9,13 +9,29 @@ Nastavení otevřete kliknutím na ikonu :material-cog: v pravém horním rohu h
 
 ---
 
-## Připojení k serveru
+## Připojení k serveru { #pripojeni-k-serveru }
 
 | Pole | Popis |
 |------|-------|
 | **Licenční klíč** | Váš klíč pro přístup ke službě. Zadává se jednorázově. Formát: `sm_live_xxxxx` |
 | **Adresa serveru** | URL serveru ScriptorMed. Předvyplněno — neměňte, pokud vás nevyzve podpora |
 | **Stav připojení** | :material-check-circle:{ style="color: #43A65E" } Zelený = připojeno · :material-close-circle:{ style="color: #D94040" } Červený = problém |
+
+### Test připojení { #test-pripojeni }
+
+Tlačítko **Test připojení** ověří:
+
+1. Dostupnost serveru ScriptorMed.
+2. Platnost vašeho licenčního klíče.
+3. Přiřazení klíče k tomuto zařízení.
+
+Pokud test selže, zkontrolujte:
+
+- Internetové připojení.
+- Správnost API adresy (výchozí hodnota je přednastavena).
+- Platnost licenčního klíče (obdrželi jste ho e-mailem při registraci).
+
+Více viz [Řešení problémů — Připojení](../faq.md#pripojeni-a-prihlaseni).
 
 ---
 
@@ -44,7 +60,7 @@ V nastavení naleznete textové pole pro vložení vzoru vaší typické klinick
 
 ---
 
-## Informace o licenci
+## Informace o licenci { #licencni-klic }
 
 V nastavení se zobrazují informace o vaší licenci:
 
@@ -54,6 +70,19 @@ V nastavení se zobrazují informace o vaší licenci:
 - **Odbornost** — vaše lékařská specializace (nastavuje se při registraci na portálu)
 
 Podrobnosti o správě předplatného najdete v sekci [Portál — Předplatné](../portal/predplatne.md).
+
+### Ukládání dat { #ukladani-dat }
+
+ScriptorMed ukládá audio nahrávky lokálně na váš počítač. Nastavení
+**Uchovávat lokální data** určuje, po kolika dnech se lokální audio
+soubory automaticky smažou.
+
+!!! info "Zprávy na serveru zůstávají"
+    Automatické mazání se týká pouze lokálních audio souborů.
+    Vygenerované klinické zprávy zůstávají bezpečně uložené
+    na serveru a jsou přístupné z historie konzultací.
+
+Aktuální využití disku vidíte v sekci **Využití disku** v nastavení.
 
 ---
 

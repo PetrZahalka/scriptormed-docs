@@ -92,7 +92,7 @@ Většina odborností sdílí základní strukturu anamnézy a závěru:
 
 ---
 
-## Část 2 — Návrhy umělé inteligence
+## Část 2 — Návrhy umělé inteligence { #ai-navrhy }
 
 Pod oddělovačem `---` naleznete nezávislé návrhy AI:
 
@@ -111,7 +111,7 @@ Návrhy dalších vyšetření nebo terapeutických kroků na základě přepisu
 
 ---
 
-## Úprava zprávy
+## Úprava zprávy { #uprava-zpravy }
 
 Vygenerovaná zpráva se zobrazí v textovém editoru, kde ji můžete libovolně upravit. Text zprávy je v čistém formátu (bez formátování) pro snadný přenos do jakéhokoliv nemocničního informačního systému.
 

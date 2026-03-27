@@ -9,7 +9,7 @@ Nahrávání je základní operace v ScriptorMed. Aplikace zachycuje zvuk z mikr
 
 ---
 
-## Postup nahrávání
+## Postup nahrávání { #jak-nahravat }
 
 <div class="step" markdown>
 <span class="step-number">1</span>
@@ -46,6 +46,17 @@ Nahrávání je základní operace v ScriptorMed. Aplikace zachycuje zvuk z mikr
 </div>
 </div>
 
+### Označení pacienta { #oznaceni-pacienta }
+
+Před zahájením nahrávání můžete zadat **označení pacienta** — libovolný
+text pro vaši orientaci v historii konzultací (např. iniciály, číslo
+karty nebo krátká poznámka).
+
+!!! info "Soukromí"
+    Označení pacienta slouží pouze pro vaši lokální orientaci.
+    **Neposílá se na server**, neobjevuje se v klinické zprávě
+    a nezanechává žádnou stopu mimo váš počítač.
+
 ---
 
 ## Odeslání nahrávky
@@ -57,7 +68,7 @@ Po ukončení nahrávání se nahrávka odešle na server. Aktuálně se odesíl
 
 ---
 
-## Stavy zpracování
+## Stavy zpracování { #stavy-konzultaci }
 
 Po odeslání nahrávky se zobrazí indikátor průběhu:
 
@@ -97,6 +108,23 @@ Typická doba zpracování je **30–90 sekund** v závislosti na délce konzult
     - Optimální délka: 3–15 minut
     - Krátké nahrávky (<1 min) mohou obsahovat málo informací pro kvalitní zprávu
     - Velmi dlouhé nahrávky (>30 min) prodlužují dobu zpracování
+
+### Kontrola mikrofonu { #kontrola-mikrofonu }
+
+Během nahrávání se v aplikaci zobrazuje **ukazatel úrovně zvuku**
+(level meter):
+
+- **Zelená** — signál je v pořádku, systém snímá řeč.
+- **Šedá / žádný pohyb** — mikrofon nesnímá zvuk.
+
+Pokud ukazatel nereaguje:
+
+1. Zkontrolujte, zda je mikrofon připojen (USB / Bluetooth).
+2. V **Nastavení** ověřte vybraný mikrofon.
+3. Zkuste tlačítko **Test mikrofonu** v Nastavení.
+4. V systémovém nastavení Windows ověřte oprávnění k mikrofonu.
+
+Více viz [Řešení problémů — Mikrofon](../faq.md#mikrofon).
 
 ---
 
