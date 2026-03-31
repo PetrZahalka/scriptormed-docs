@@ -54,7 +54,7 @@ sm_live_xxxxxxxxxxxxxxxxxxxxxxxx
 - Při kopírování zkontrolujte, že jste nevynechali žádné znaky
 
 !!! warning "Vazba na zařízení"
-    Licenční klíč se při prvním použití automaticky naváže na váš počítač. Pokud potřebujete aplikaci přesunout na jiný počítač, použijte funkci **Uvolnit licenci** v nastavení, nebo kontaktujte [podporu](../kontakt.md).
+    Licenční klíč se při prvním použití automaticky naváže na váš počítač. Pokud potřebujete aplikaci přesunout na jiný počítač, kontaktujte [podporu](../kontakt.md) — licenci uvolníme obvykle do jednoho pracovního dne.
 
 ---
 

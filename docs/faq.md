@@ -133,7 +133,7 @@ description: Časté problémy a jejich řešení v ScriptorMed
 ## Licence a zařízení
 
 ??? question "Klíč nefunguje na novém počítači"
-    Licenční klíč je vázán na jedno zařízení. Nejprve ho [uvolněte](desktop/nastaveni.md#uvolneni-licence) na starém počítači, pak zadejte na novém.
+    Licenční klíč je vázán na jedno zařízení. Pro přenos na nový počítač kontaktujte [podporu](kontakt.md) — licenci uvolníme obvykle do jednoho pracovního dne. Více viz [Přenos licence](desktop/nastaveni.md#uvolneni-licence).
 
 ??? question "Vyčerpal/a jsem konzultace"
     Máte dvě možnosti:
@@ -152,6 +152,36 @@ description: Časté problémy a jejich řešení v ScriptorMed
 
 ??? question "Mohu platit bankovním převodem?"
     Bankovní převod (s QR fakturou) je dostupný jako alternativa, pokud z nějakého důvodu nelze použít kartu. Při bankovním převodu počítejte s prodlevou 1–2 pracovní dny.
+
+---
+
+## Data a soukromí
+
+??? question "Kde jsou moje data uložena?"
+    **Audio nahrávky** jsou uloženy pouze na vašem počítači (lokálně). Po zpracování se audio na server neukládá.
+
+    **Výsledné zprávy** (klinické zprávy vygenerované ze záznamu) jsou uloženy na zabezpečeném serveru v EU (Německo) a zároveň v historii konzultací ve vaší aplikaci.
+
+    **Statistické údaje** (datum konzultace, doba zpracování, stav) jsou uloženy na serveru pro účely vyúčtování a technické podpory.
+
+    | Co | Kde | Jak dlouho |
+    |---|---|---|
+    | Audio nahrávka | Váš počítač | 14 dní (nastavitelné) |
+    | Klinická zpráva | Server (EU) + váš počítač | Po dobu trvání předplatného |
+    | Metadata | Server (EU) | Po dobu trvání předplatného |
+
+    Server je provozován v datovém centru Hetzner v Německu. Komunikace je šifrována (TLS 1.3). Přístup k datům vaší ordinace máte pouze vy.
+
+??? question "Jak přenést licenci na jiný počítač?"
+    Pokud měníte počítač v ordinaci, licence musí být nejprve uvolněna ze stávajícího zařízení. Aktuálně toto provádíme na vyžádání — napište nám na [podpora@scriptormed.com](mailto:podpora@scriptormed.com) a licenci uvolníme obvykle do jednoho pracovního dne.
+
+    Po uvolnění licence:
+
+    1. Nainstalujte ScriptorMed na nový počítač
+    2. Zadejte svůj licenční klíč v Nastavení
+    3. Aplikace se automaticky aktivuje
+
+    Licence je vázána na jedno zařízení najednou (podle vašeho plánu může být aktivních více zařízení současně).
 
 ---
 

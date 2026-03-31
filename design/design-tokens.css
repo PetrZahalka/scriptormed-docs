@@ -1,0 +1,128 @@
+/* ═══════════════════════════════════════════════════
+   ScriptorMed Design Tokens v1.0
+   Source of truth: temvara_brandbook_v2.html
+   ═══════════════════════════════════════════════════ */
+
+:root {
+  /* ── Primární barvy ── */
+  --sm-navy: #173B6C;
+  --sm-teal: #1497A3;
+  --sm-slate: #5B6472;
+
+  /* ── Modulové akcenty ── */
+  --sm-desktop: #2F80ED;
+  --sm-admin: #4F5D75;
+  --sm-portal: #0E8AA5;
+  --sm-web: #43A65E;
+
+  /* ── Sémantické barvy ── */
+  --sm-success: #43A65E;
+  --sm-success-light: #E8F8EA;
+  --sm-warning: #E5A100;
+  --sm-warning-light: #FFF8E1;
+  --sm-error: #D94040;
+  --sm-error-light: #FDE8E8;
+  --sm-info: #2F80ED;
+  --sm-info-light: #E8F0FE;
+
+  /* ── Povrchy (light mode) ── */
+  --sm-bg: #F7F9FC;
+  --sm-bg-subtle: #EFF2F7;
+  --sm-card: #FFFFFF;
+  --sm-border: #DDE3ED;
+  --sm-border-strong: #C4CDD9;
+
+  /* ── Text ── */
+  --sm-text-primary: #173B6C;
+  --sm-text-secondary: #5B6472;
+  --sm-text-muted: #8A95A6;
+  --sm-text-inverse: #FFFFFF;
+  --sm-text-link: #1497A3;
+  --sm-text-link-hover: #117A85;
+
+  /* ── Typografie ── */
+  --sm-font-sans: 'Plus Jakarta Sans', 'Inter', system-ui, -apple-system, sans-serif;
+  --sm-font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+
+  --sm-text-xs: 0.75rem;     /* 12px */
+  --sm-text-sm: 0.8125rem;   /* 13px */
+  --sm-text-base: 0.875rem;  /* 14px — admin default */
+  --sm-text-lg: 1rem;        /* 16px */
+  --sm-text-xl: 1.25rem;     /* 20px */
+  --sm-text-2xl: 1.5rem;     /* 24px */
+  --sm-text-3xl: 1.875rem;   /* 30px */
+
+  --sm-font-normal: 400;
+  --sm-font-medium: 500;
+  --sm-font-semibold: 600;
+  --sm-font-bold: 700;
+  --sm-font-extrabold: 800;
+
+  --sm-leading-tight: 1.25;
+  --sm-leading-normal: 1.5;
+  --sm-leading-relaxed: 1.625;
+
+  /* ── Spacing (4px base grid) ── */
+  --sm-space-0: 0;
+  --sm-space-0-5: 0.125rem;  /* 2px */
+  --sm-space-1: 0.25rem;     /* 4px */
+  --sm-space-1-5: 0.375rem;  /* 6px */
+  --sm-space-2: 0.5rem;      /* 8px */
+  --sm-space-3: 0.75rem;     /* 12px */
+  --sm-space-4: 1rem;        /* 16px */
+  --sm-space-5: 1.25rem;     /* 20px */
+  --sm-space-6: 1.5rem;      /* 24px */
+  --sm-space-8: 2rem;        /* 32px */
+  --sm-space-10: 2.5rem;     /* 40px */
+  --sm-space-12: 3rem;       /* 48px */
+  --sm-space-16: 4rem;       /* 64px */
+
+  /* ── Border radius ── */
+  --sm-radius-sm: 4px;
+  --sm-radius-md: 8px;
+  --sm-radius-lg: 12px;
+  --sm-radius-xl: 16px;
+  --sm-radius-2xl: 20px;
+  --sm-radius-full: 9999px;
+
+  /* ── Shadows ── */
+  --sm-shadow-xs: 0 1px 2px rgba(23, 59, 108, 0.03);
+  --sm-shadow-sm: 0 1px 3px rgba(23, 59, 108, 0.05), 0 1px 2px rgba(23, 59, 108, 0.03);
+  --sm-shadow-md: 0 4px 6px rgba(23, 59, 108, 0.04), 0 2px 4px rgba(23, 59, 108, 0.03);
+  --sm-shadow-lg: 0 10px 15px rgba(23, 59, 108, 0.05), 0 4px 6px rgba(23, 59, 108, 0.03);
+  --sm-shadow-xl: 0 20px 25px rgba(23, 59, 108, 0.06), 0 8px 10px rgba(23, 59, 108, 0.03);
+
+  /* ── Transitions ── */
+  --sm-transition-fast: 100ms ease;
+  --sm-transition-normal: 200ms ease;
+  --sm-transition-slow: 300ms ease;
+
+  /* ── Z-index ── */
+  --sm-z-dropdown: 50;
+  --sm-z-sticky: 100;
+  --sm-z-modal-backdrop: 200;
+  --sm-z-modal: 300;
+  --sm-z-toast: 400;
+
+  /* ── Layout ── */
+  --sm-sidebar-width: 240px;
+  --sm-sidebar-collapsed: 64px;
+  --sm-header-height: 56px;
+  --sm-content-max-width: 1280px;
+}
+
+/* ── Dark mode tokens (připraveno pro budoucnost) ── */
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --sm-bg: #0F1B2D;
+    --sm-bg-subtle: #162540;
+    --sm-card: #162540;
+    --sm-border: #243654;
+    --sm-border-strong: #2D4468;
+    --sm-text-primary: #E8EDF4;
+    --sm-text-secondary: #8A95A6;
+    --sm-text-muted: #5F7089;
+    --sm-navy: #4A7CC9;
+    --sm-teal: #1BBFCC;
+  }
+} */

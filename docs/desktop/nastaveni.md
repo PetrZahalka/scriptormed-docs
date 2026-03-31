@@ -73,30 +73,33 @@ Podrobnosti o správě předplatného najdete v sekci [Portál — Předplatné]
 
 ### Ukládání dat { #ukladani-dat }
 
-ScriptorMed ukládá audio nahrávky lokálně na váš počítač. Nastavení
-**Uchovávat lokální data** určuje, po kolika dnech se lokální audio
-soubory automaticky smažou.
+Audio nahrávka slouží výhradně k přepisu a vygenerování zprávy. Po zpracování se audio na serveru neukládá — uchovávány jsou pouze výsledná zpráva a statistické údaje.
 
-!!! info "Zprávy na serveru zůstávají"
+Lokální audio soubory na vašem počítači se automaticky mažou po uplynutí nastavené doby. Výchozí hodnota je **14 dní** od zpracování. Můžete ji změnit v nastavení na 7, 14 nebo 30 dní.
+
+!!! info "Co se maže a co zůstává"
     Automatické mazání se týká pouze lokálních audio souborů.
     Vygenerované klinické zprávy zůstávají bezpečně uložené
-    na serveru a jsou přístupné z historie konzultací.
+    na serveru a jsou přístupné z historie konzultací nezávisle na tomto nastavení.
 
 Aktuální využití disku vidíte v sekci **Využití disku** v nastavení.
 
 ---
 
-## Uvolnění licence { #uvolneni-licence }
+## Přenos licence na jiný počítač { #uvolneni-licence }
 
-Pokud potřebujete přesunout aplikaci na jiný počítač:
+Pokud potřebujete přenést ScriptorMed na jiný počítač (například při výměně PC), kontaktujte naši podporu:
 
-1. Otevřete nastavení na **stávajícím** počítači
-2. Klikněte na **Uvolnit licenci z tohoto zařízení**
-3. Potvrďte akci
-4. Na **novém** počítači nainstalujte aplikaci a zadejte stejný licenční klíč
+**E-mail:** [podpora@scriptormed.com](mailto:podpora@scriptormed.com)
 
-!!! info "Omezení"
-    Licenci lze uvolnit maximálně 3× za měsíc. Pokud potřebujete častější přesuny, [kontaktujte podporu](../kontakt.md).
+Uveďte prosím:
+
+- Název vaší ordinace
+- Důvod přenosu (nový počítač, reinstalace apod.)
+
+Licence bude uvolněna obvykle do jednoho pracovního dne.
+
+*V budoucí verzi bude možné licenci uvolnit přímo v aplikaci.*
 
 ---
 

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 80" width="360" height="80">
+  <polyline points="8,8 30,40 8,72" fill="none" stroke="#173B6C" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="28,8 50,40 28,72" fill="none" stroke="#1497A3" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="72" y="46" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="800" font-size="38" fill="#173B6C" letter-spacing="-0.5">ScriptorMed</text>
+  <text x="72" y="64" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="400" font-size="14" fill="#5B6472">by Temvara</text>
+</svg>

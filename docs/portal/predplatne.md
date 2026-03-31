@@ -90,7 +90,7 @@ Plán můžete kdykoliv změnit na portálu:
 Předplatné můžete zrušit kdykoliv na portálu. Po zrušení:
 
 - Služba běží do konce aktuálního zaplaceného období
-- Data zůstanou zachována po dobu 90 dní
+- Data (klinické zprávy a metadata) zůstanou zachována po dobu 14 dní
 - Licenční klíče přestanou fungovat po konci období
 
 !!! warning "Před zrušením"
