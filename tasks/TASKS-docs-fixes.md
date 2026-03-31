@@ -50,41 +50,47 @@ grep -A 50 "^nav:" mkdocs.yml
 
 ### Problém
 
-Dokumentace (pravděpodobně v sekci „Správa dat", „Nastavení" nebo „Bezpečnost") může obsahovat text, který tvrdí, že audio data jsou na serveru uložena i po smazání na klientovi. To je **fakticky špatně** a z hlediska GDPR zavádějící.
+Dokumentace může obsahovat texty, které nepřesně popisují, co se na serveru ukládá. Potřeba sladit s reálnou data retention politikou.
 
 ### Skutečný stav (produkční pipeline)
 
 1. Desktop nahraje audio lokálně (WAV)
 2. Audio se odešle na server ke zpracování (STT → LLM)
 3. Server vygeneruje klinickou zprávu (text)
-4. Na serveru se **uloží pouze**: výsledná zpráva (`note_text`), metadata konzultace (časové razítko, stav, statistiky), identifikátor tenanta
-5. Audio se na serveru **neukládá** (výjimka: debug režim, který není user-facing)
-6. Na klientovi zůstává lokální kopie audio po dobu nastavené retence
+4. Klient (desktop) si zprávu stáhne
+5. **Po stažení klientem** se ze serveru mažou audio I text zprávy
+6. Na serveru **trvale zůstávají pouze metadata**: délka nahrávky, doba zpracování, počet kreditů, stav, timestamp
+7. Na klientovi zůstává lokální kopie audio po dobu nastavené retence (14 dní default)
+
+**Výjimka:** Debug tenanti uchovávají vše pro diagnostiku — toto není user-facing informace.
 
 ### Co hledat a opravit
 
 ```bash
 # Najdi problémový text
-grep -rn "server.*ulož\|uložen.*server\|data.*server.*smazán\|server.*i po\|zůstávají na serveru" docs/ --include="*.md"
+grep -rn "server.*ulož\|uložen.*server\|data.*server.*smazán\|server.*i po\|zůstávají na serveru\|trvale.*ulož\|trvale.*uchov" docs/ --include="*.md"
 grep -rn "90 dní\|90 dnů" docs/ --include="*.md"
 ```
 
 ### Správné formulace (použij v příslušných sekcích)
 
-**O zpracování audio:**
-> Audio nahrávka slouží výhradně k přepisu a vygenerování zprávy. Po zpracování se audio na serveru neukládá — uchovávány jsou pouze výsledná zpráva a statistické údaje.
+**O zpracování audio a zprávy:**
+> Audio nahrávka se odesílá na server k přepisu a vygenerování zprávy. Po dokončení zpracování a stažení výsledné zprávy do vaší aplikace jsou audio i text zprávy ze serveru automaticky smazány. Na serveru trvale zůstávají pouze statistické údaje (délka nahrávky, doba zpracování, spotřeba kreditů).
 
 **O lokálních souborech:**
 > Lokální audio soubory na vašem počítači se automaticky mažou po uplynutí nastavené doby (výchozí: 14 dní od zpracování). Toto nastavení můžete změnit v Nastavení → Retence souborů.
 
 **O smazání konzultace:**
-> Smazáním konzultace z historie v aplikaci se odstraní lokální audio soubor. Na serveru zůstane pouze anonymizovaný statistický záznam (datum, doba zpracování, stav) pro účely vyúčtování.
+> Smazáním konzultace z historie v aplikaci se odstraní lokální audio soubor. Na serveru zůstávají pouze anonymizované statistické údaje (datum, doba zpracování, stav) pro účely vyúčtování.
 
 ### Ověření
 
-- [ ] Žádná stránka v docs netvrdí, že audio je na serveru po zpracování
-- [ ] Žádná stránka nezmíňuje „debug" režim
-- [ ] Formulace odpovídá skutečnému chování pipeline
+- [x] Žádná stránka v docs netvrdí, že audio se na server vůbec neposílá
+- [x] Žádná stránka netvrdí, že audio NEBO text zprávy jsou na serveru uloženy trvale
+- [x] Jasně řečeno: audio + zpráva → server → zpracování + stažení → automaticky smazáno
+- [x] Na serveru zůstávají jen statistické údaje — to musí být explicitně řečeno
+- [x] Žádná stránka nezmíňuje „debug" režim
+- [x] Formulace odpovídá skutečnému chování pipeline
 
 ---
 
@@ -123,9 +129,9 @@ grep -rn "uvolnit\|uvolnění\|přenos.*licen\|licen.*přenos\|jiný počítač\
 
 ### Ověření
 
-- [ ] Žádná stránka neodkazuje na neexistující tlačítko „Uvolnit licenci" v desktopu
-- [ ] Text jasně říká „kontaktujte podporu"
-- [ ] Uveden e-mail podpora@scriptormed.com
+- [x] Žádná stránka neodkazuje na neexistující tlačítko „Uvolnit licenci" v desktopu
+- [x] Text jasně říká „kontaktujte podporu"
+- [x] Uveden e-mail podpora@scriptormed.com
 
 ---
 
@@ -151,9 +157,9 @@ grep -rn "90\|retenc\|uchovávání\|dní.*soubor\|soubor.*dní\|automatick.*sma
 
 ### Ověření
 
-- [ ] Žádná zmínka o 90 dnech
-- [ ] Uvedeny správné volby: 7, 14, 30 dní
-- [ ] Jasné rozlišení: retence = lokální audio, ne zprávy v historii
+- [x] Žádná zmínka o 90 dnech
+- [x] Uvedeny správné volby: 7, 14, 30 dní
+- [x] Jasné rozlišení: retence = lokální audio, ne zprávy v historii
 
 ---
 
@@ -168,27 +174,29 @@ FAQ stránka (pravděpodobně `docs/faq.md` nebo `docs/reseni-problemu.md`). Pok
 ```markdown
 ### Kde jsou moje data uložena?
 
-**Audio nahrávky** jsou uloženy pouze na vašem počítači (lokálně). Po zpracování se audio na server neukládá.
+**Audio nahrávky** se odesílají na server ke zpracování (přepis řeči a generování zprávy). Po dokončení zpracování je audio ze serveru automaticky smazáno. Lokálně na vašem počítači zůstávají po nastavenou dobu (výchozí 14 dní).
 
-**Výsledné zprávy** (klinické zprávy vygenerované ze záznamu) jsou uloženy na zabezpečeném serveru v EU (Německo) a zároveň v historii konzultací ve vaší aplikaci.
+**Výsledné zprávy** (klinické zprávy vygenerované ze záznamu) se po stažení do vaší aplikace ze serveru automaticky mažou. Zprávy zůstávají v historii konzultací ve vaší aplikaci na vašem počítači.
 
-**Statistické údaje** (datum konzultace, doba zpracování, stav) jsou uloženy na serveru pro účely vyúčtování a technické podpory.
+**Statistické údaje** (délka nahrávky, doba zpracování, spotřeba kreditů) jsou uloženy na serveru pro účely vyúčtování a technické podpory.
 
 | Co | Kde | Jak dlouho |
 |---|---|---|
-| Audio nahrávka | Váš počítač | 14 dní (nastavitelné) |
-| Klinická zpráva | Server (EU) + váš počítač | Po dobu trvání předplatného |
-| Metadata | Server (EU) | Po dobu trvání předplatného |
+| Audio nahrávka | Váš počítač (lokálně) | 14 dní (nastavitelné) |
+| Audio na serveru | Server (EU) — během zpracování | Smazáno po dokončení zpracování |
+| Klinická zpráva na serveru | Server (EU) — do stažení klientem | Smazáno po stažení do aplikace |
+| Klinická zpráva lokálně | Váš počítač | Dokud ji nesmažete |
+| Statistické údaje | Server (EU) | Po dobu trvání účtu |
 
 Server je provozován v datovém centru Hetzner v Německu. Komunikace je šifrována (TLS 1.3). Přístup k datům vaší ordinace máte pouze vy.
 ```
 
 ### Ověření
 
-- [ ] FAQ stránka existuje a je v navigaci
-- [ ] Tabulka jasně ukazuje co kde je a jak dlouho
-- [ ] Zmíněno EU hosting (Hetzner, Německo)
-- [ ] Zmíněno šifrování (TLS 1.3)
+- [x] FAQ stránka existuje a je v navigaci
+- [x] Tabulka jasně ukazuje co kde je a jak dlouho
+- [x] Zmíněno EU hosting (Hetzner, Německo)
+- [x] Zmíněno šifrování (TLS 1.3)
 
 ---
 
@@ -216,9 +224,9 @@ Licence je vázána na jedno zařízení najednou (podle vašeho plánu může b
 
 ### Ověření
 
-- [ ] Postup je srozumitelný pro lékaře bez IT znalostí
-- [ ] Kontakt na podporu je uveden
-- [ ] Zmíněno, že vyšší plány podporují více zařízení
+- [x] Postup je srozumitelný pro lékaře bez IT znalostí
+- [x] Kontakt na podporu je uveden
+- [x] Zmíněno, že vyšší plány podporují více zařízení
 
 ---
 
@@ -241,15 +249,15 @@ grep -rn "Kč\|cen\|plán\|trial\|zkušební" docs/ --include="*.md"
 
 ### Checklist
 
-- [ ] Žádný text o mobilní aplikaci (neexistuje)
-- [ ] Žádný text o webovém nahrávání (neexistuje)
-- [ ] Žádný text o IZIP/eRecept integraci (neexistuje)
-- [ ] Žádný text o 2FA (neexistuje)
-- [ ] Ceník odpovídá aktuálnímu (Trial/Start 1490/Professional 2990/Team 4990)
-- [ ] Trial = 14 dní, 20 konzultací
-- [ ] Zmíněné verze/screenshoty odpovídají aktuální UI (v0.19.0+)
-- [ ] Kontaktní e-mail: podpora@scriptormed.com (ne jiný)
-- [ ] Provozovatel: Temvara Systems s.r.o. (ne Scriptor Technologies)
+- [x] Žádný text o mobilní aplikaci (neexistuje)
+- [x] Žádný text o webovém nahrávání (neexistuje)
+- [x] Žádný text o IZIP/eRecept integraci (neexistuje)
+- [x] Žádný text o 2FA (neexistuje)
+- [x] Ceník odpovídá aktuálnímu (Trial/Start 1490/Professional 2990/Team 4990)
+- [x] Trial = 14 dní, 20 konzultací
+- [x] Zmíněné verze/screenshoty odpovídají aktuální UI (v0.19.0+)
+- [x] Kontaktní e-mail: podpora@scriptormed.com (ne jiný)
+- [x] Provozovatel: Temvara Systems s.r.o. (ne Scriptor Technologies)
 
 ---
 

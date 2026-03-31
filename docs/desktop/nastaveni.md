@@ -73,14 +73,13 @@ Podrobnosti o správě předplatného najdete v sekci [Portál — Předplatné]
 
 ### Ukládání dat { #ukladani-dat }
 
-Audio nahrávka slouží výhradně k přepisu a vygenerování zprávy. Po zpracování se audio na serveru neukládá — uchovávány jsou pouze výsledná zpráva a statistické údaje.
+Audio nahrávka se odesílá na server k přepisu a vygenerování zprávy. Po dokončení zpracování a stažení výsledné zprávy do vaší aplikace jsou audio i text zprávy ze serveru automaticky smazány. Na serveru trvale zůstávají pouze statistické údaje (délka nahrávky, doba zpracování, spotřeba kreditů).
 
 Lokální audio soubory na vašem počítači se automaticky mažou po uplynutí nastavené doby. Výchozí hodnota je **14 dní** od zpracování. Můžete ji změnit v nastavení na 7, 14 nebo 30 dní.
 
 !!! info "Co se maže a co zůstává"
     Automatické mazání se týká pouze lokálních audio souborů.
-    Vygenerované klinické zprávy zůstávají bezpečně uložené
-    na serveru a jsou přístupné z historie konzultací nezávisle na tomto nastavení.
+    Výsledné zprávy v historii konzultací zůstávají dostupné na vašem počítači nezávisle na tomto nastavení.
 
 Aktuální využití disku vidíte v sekci **Využití disku** v nastavení.
 

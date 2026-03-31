@@ -158,17 +158,19 @@ description: Časté problémy a jejich řešení v ScriptorMed
 ## Data a soukromí
 
 ??? question "Kde jsou moje data uložena?"
-    **Audio nahrávky** jsou uloženy pouze na vašem počítači (lokálně). Po zpracování se audio na server neukládá.
+    **Audio nahrávky** se odesílají na server ke zpracování (přepis řeči a generování zprávy). Po dokončení zpracování je audio ze serveru automaticky smazáno. Lokálně na vašem počítači zůstávají po nastavenou dobu (výchozí 14 dní).
 
-    **Výsledné zprávy** (klinické zprávy vygenerované ze záznamu) jsou uloženy na zabezpečeném serveru v EU (Německo) a zároveň v historii konzultací ve vaší aplikaci.
+    **Výsledné zprávy** (klinické zprávy vygenerované ze záznamu) se po stažení do vaší aplikace ze serveru automaticky mažou. Zprávy zůstávají v historii konzultací ve vaší aplikaci na vašem počítači.
 
-    **Statistické údaje** (datum konzultace, doba zpracování, stav) jsou uloženy na serveru pro účely vyúčtování a technické podpory.
+    **Statistické údaje** (délka nahrávky, doba zpracování, spotřeba kreditů) jsou uloženy na serveru pro účely vyúčtování a technické podpory.
 
     | Co | Kde | Jak dlouho |
     |---|---|---|
-    | Audio nahrávka | Váš počítač | 14 dní (nastavitelné) |
-    | Klinická zpráva | Server (EU) + váš počítač | Po dobu trvání předplatného |
-    | Metadata | Server (EU) | Po dobu trvání předplatného |
+    | Audio nahrávka | Váš počítač (lokálně) | 14 dní (nastavitelné) |
+    | Audio na serveru | Server (EU) — během zpracování | Smazáno po dokončení zpracování |
+    | Klinická zpráva na serveru | Server (EU) — do stažení klientem | Smazáno po stažení do aplikace |
+    | Klinická zpráva lokálně | Váš počítač | Dokud ji nesmažete |
+    | Statistické údaje | Server (EU) | Po dobu trvání účtu |
 
     Server je provozován v datovém centru Hetzner v Německu. Komunikace je šifrována (TLS 1.3). Přístup k datům vaší ordinace máte pouze vy.
 

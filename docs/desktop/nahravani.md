@@ -143,4 +143,4 @@ Více viz [Řešení problémů — Mikrofon](../faq.md#mikrofon).
     Doporučujeme ano. Během vyšetření obvykle není řeč, která by přispěla ke zprávě. Po vyšetření pokračujte nahrávání a slovně popište nález — systém ho zapracuje do zprávy.
 
 ??? question "Mohu nahrávku smazat?"
-    Smazáním konzultace z historie v aplikaci se odstraní lokální audio soubor. Na serveru zůstane pouze anonymizovaný statistický záznam (datum, doba zpracování, stav) pro účely vyúčtování. Audio nahrávka se na serveru neukládá — slouží pouze ke zpracování.
+    Smazáním konzultace z historie v aplikaci se odstraní lokální audio soubor. Na serveru zůstávají pouze anonymizované statistické údaje (datum, doba zpracování, stav) pro účely vyúčtování.
