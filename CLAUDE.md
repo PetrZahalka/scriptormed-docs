@@ -48,6 +48,96 @@ Používej stávající formátovací vzory:
 
 Kroky používají `<div class="step">` pattern — zachovej konzistenci s existujícími stránkami.
 
+## Model & effort selection
+
+**Default model:** Opus 4.7 (claude.ai Max plán).
+
+**Effort levels — pravidla:**
+
+| Effort | Kdy použít |
+|--------|------------|
+| `xhigh` | Velké reorganizace docs (restrukturalizace navigace, masivní audit, nová sekce pokrývající novou doménu) |
+| `high` | Standardní TASKS (aktualizace stránek podle DOCS-IMPACT.md, nová stránka, významná revize) |
+| `medium` | Drobné textové fixy, překlepy, rutinní úpravy |
+
+**Model switch pro úspory usage poolu:**
+Pokud je úloha čistě mechanická (překlepy, rename termínu napříč soubory, drobné formátovací úpravy), použij `/model sonnet-4.6`. Opus 4.7 nepotřebuješ.
+
+**Nastavení na startu session:**
+```
+/effort high       # nebo xhigh dle typu úlohy
+/status            # ověř zbývající usage pool
+```
+
+## Usage disciplína
+
+Max 5x plán má sdílený usage pool pro claude.ai chat i Claude Code. Opus 4.7 s xhigh effort je token-hungry. Proto:
+
+- **Před startem dlouhé úlohy:** `/status` — pokud je pool < 40 %, zvaž odložení nebo přepnutí na Sonnet.
+- **Na konci pracovního dne:** `/usage` — sledování trendu.
+- **Po 60+ minutách v jedné session:** zvaž `/clear` a znovu-načtení kontextu, ať se pozdější prompty nezvětšují exponenciálně.
+
+## SCRATCHPAD.md pro dlouhé úlohy (> 1 hodina)
+
+Docs úlohy jsou obvykle rychlé — SCRATCHPAD.md používej **pouze pro velké reorganizace** (přestrukturalizace navigace, masivní audit napříč desítkami stránek). Soubor je gitignored v rootu repa. Struktura:
+
+```
+# SCRATCHPAD — <název úlohy>
+
+## Rozhodnutí
+- [čas] Rozhodnutí + proč
+
+## Objevy & gotchas
+- Nekonzistence mezi CONTEXT.md a docs, chybějící stránky, rozpory
+
+## Otázky na Petra
+- [ ] Otevřená otázka
+
+## Stránky
+- [x] desktop/nahravani.md — aktualizováno
+- [ ] desktop/klinicka-zprava.md — TODO
+```
+
+Na konci úlohy agent shrne SCRATCHPAD.md do commit message / seznamu změn a smaže ho.
+
+**Je v `.gitignore`:** ověř, že `SCRATCHPAD.md` je v `.gitignore` (root). Pokud ne, přidej.
+
+## Review & merge gates
+
+**Před commitem (agent):**
+```
+/review
+```
+Lokální code review. Zdarma, používej na každý netriviální commit. U docs zdůrazni kontrolu:
+- **Soulad se současným stavem aplikace** — žádné popisy plánovaných funkcí mimo `!!! info "Připravujeme"` boxy
+- Terminologie ("Licenční klíč", ne "API klíč")
+- Chybové kódy, plány a ceny odpovídají CONTEXT.md / `app/core/errors.py`
+
+**Před mergem velké revize (Petr):**
+```
+# Na GitHubu otevři draft PR
+/ultrareview <PR#>
+```
+Cloud multi-agent review, běží v pozadí 5–10 min. 3 free runs per účet (jednorázově), pak $5–$20 podle velikosti.
+
+**Kdy `/ultrareview` použít:**
+- Přestrukturalizace navigace (`mkdocs.yml`) s dopadem na desítky stránek
+- Masivní audit napříč celým repem (Varianta B workflow)
+- Nové sekce pokrývající novou doménu (např. nový produkt, nový typ uživatele)
+
+**Kdy NE:**
+- Běžné aktualizace podle DOCS-IMPACT.md (stačí `/review`)
+- Drobné textové fixy
+- FAQ přírůstky
+
+**Auto mode alternativa (Claude Code v2.1.112+):**
+Pro Max subscribery s Opus 4.7 je auto mode dostupný bez flagu — stačí:
+```
+claude
+# Pak v session: Shift+Tab pro přepnutí do auto režimu
+```
+Auto mode má local permission classifier, který eliminuje většinu prompts ale blokuje destruktivní akce (force-push main, curl | bash). Bezpečnější než `--dangerously-skip-permissions`.
+
 ## Workflow pro aktualizaci docs
 
 ### Varianta A: Na základě DOCS-IMPACT.md (preferovaná)
