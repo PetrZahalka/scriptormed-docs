@@ -1,1 +1,5 @@
 SCRATCHPAD.md
+
+# TASKS files — orchestration only, not source
+TASKS-*.md
+tasks/
