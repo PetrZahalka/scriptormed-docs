@@ -35,7 +35,14 @@ Registrace vytvoří účet pro vaši ordinaci a spustí zkušební období.
 <div class="step" markdown>
 <span class="step-number">4</span>
 <div class="step-content" markdown>
-**Potvrďte registraci** — na e-mail obdržíte potvrzovací odkaz a licenční klíč pro desktop aplikaci.
+**Ověřte e-mail** — na zadaný e-mail obdržíte ověřovací odkaz (platný 24 hodin). Klikněte na něj pro potvrzení registrace.
+</div>
+</div>
+
+<div class="step" markdown>
+<span class="step-number">5</span>
+<div class="step-content" markdown>
+**Obdržíte licenční klíč** — po ověření e-mailu vám přijde uvítací e-mail s licenčním klíčem pro desktop aplikaci. Klíč se nezobrazuje ani neodesílá před ověřením e-mailu.
 </div>
 </div>
 
