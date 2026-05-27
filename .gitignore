@@ -6,3 +6,15 @@ tasks/
 
 # mkdocs build output (Cloudflare auto-builds from requirements.txt + mkdocs build)
 site/
+
+# macOS junk
+.DS_Store
+
+# Local checklists (orchestration-only)
+DOCS-UPDATE-CHECKLIST.md
+
+# Claude Code workspace (worktrees, configs)
+.claude/
+
+# Git internals (occasional leak to root)
+FETCH_HEAD
