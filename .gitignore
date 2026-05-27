@@ -3,3 +3,6 @@ SCRATCHPAD.md
 # TASKS files — orchestration only, not source
 TASKS-*.md
 tasks/
+
+# mkdocs build output (Cloudflare auto-builds from requirements.txt + mkdocs build)
+site/
