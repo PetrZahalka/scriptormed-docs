@@ -110,7 +110,7 @@ description: Časté problémy a jejich řešení v ScriptorMed
     Podrobnější přehled mikrofonů najdete v sekci [Instalace — Doporučení k mikrofonu](desktop/instalace.md#doporuceni-k-mikrofonu).
 
 ??? question "Mohu si vybrat mikrofon v aplikaci?"
-    Aktuálně aplikace používá výchozí systémový mikrofon. Výběr konkrétního mikrofonu přímo v aplikaci připravujeme pro budoucí verzi. Zatím nastavte preferovaný mikrofon jako výchozí v nastavení operačního systému.
+    Ano — v [nastavení aplikace](desktop/nastaveni.md#vyber-mikrofonu) si můžete zvolit konkrétní mikrofon ze seznamu dostupných zařízení. USB mikrofony (např. Jabra) jsou zvýrazněny. Vybraný mikrofon můžete otestovat tlačítkem **Test mikrofonu**.
 
 ---
 
@@ -133,7 +133,7 @@ description: Časté problémy a jejich řešení v ScriptorMed
 ## Licence a zařízení
 
 ??? question "Klíč nefunguje na novém počítači"
-    Licenční klíč je vázán na jedno zařízení. Pro přenos na nový počítač kontaktujte [podporu](kontakt.md) — licenci uvolníme obvykle do jednoho pracovního dne. Více viz [Přenos licence](desktop/nastaveni.md#uvolneni-licence).
+    Licenční klíč je vázán na jedno zařízení. Pro přenos na nový počítač uvolněte licenci v [nastavení aplikace](desktop/nastaveni.md#uvolneni-licence) na stávajícím počítači a poté zadejte klíč na novém zařízení.
 
 ??? question "Vyčerpal/a jsem konzultace"
     Máte dvě možnosti:
@@ -175,15 +175,14 @@ description: Časté problémy a jejich řešení v ScriptorMed
     Server je provozován v datovém centru Hetzner v Německu. Komunikace je šifrována (TLS 1.3). Přístup k datům vaší ordinace máte pouze vy.
 
 ??? question "Jak přenést licenci na jiný počítač?"
-    Pokud měníte počítač v ordinaci, licence musí být nejprve uvolněna ze stávajícího zařízení. Aktuálně toto provádíme na vyžádání — napište nám na [podpora@scriptormed.com](mailto:podpora@scriptormed.com) a licenci uvolníme obvykle do jednoho pracovního dne.
+    Licenci můžete uvolnit přímo v desktop aplikaci:
 
-    Po uvolnění licence:
+    1. Na stávajícím počítači otevřete **Nastavení** → **Informace o licenci** → **Uvolnit zařízení**
+    2. Nainstalujte ScriptorMed na nový počítač
+    3. Zadejte svůj licenční klíč v Nastavení
+    4. Aplikace se automaticky aktivuje
 
-    1. Nainstalujte ScriptorMed na nový počítač
-    2. Zadejte svůj licenční klíč v Nastavení
-    3. Aplikace se automaticky aktivuje
-
-    Licence je vázána na jedno zařízení najednou (podle vašeho plánu může být aktivních více zařízení současně).
+    Uvolnění je omezeno na 3× za měsíc. Licence je vázána na jedno zařízení najednou (podle vašeho plánu může být aktivních více zařízení současně). Více viz [Přenos licence](desktop/nastaveni.md#uvolneni-licence).
 
 ---
 

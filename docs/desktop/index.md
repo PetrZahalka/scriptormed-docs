@@ -11,11 +11,14 @@ description: ScriptorMed Desktop — desktopová aplikace pro nahrávání konzu
 
 ## Co aplikace umí
 
-- **Nahrávání konzultací** — přímý záznam z mikrofonu počítače
-- **Automatické odesílání** — po ukončení nahrávání se zvuk odešle na server
+- **Nahrávání konzultací** — přímý záznam z mikrofonu počítače s možností pauzy a pokračování
+- **Výběr mikrofonu** — volba konkrétního mikrofonu ze seznamu dostupných zařízení
+- **Automatické nebo manuální odesílání** — po ukončení nahrávání se zvuk odešle na server (režim lze změnit v nastavení)
 - **Zobrazení zprávy** — strukturovaná klinická zpráva ve formátu odpovídajícím vaší odbornosti
 - **Úprava textu** — zprávu můžete upravit přímo v aplikaci
 - **Kopírování do NIS** — přenos textu do vašeho nemocničního informačního systému
+- **Přehrávání nahrávek** — možnost přehrát si audio záznam konzultace
+- **Správa licence** — zobrazení stavu předplatného a self-service přenos licence na jiný počítač
 - **Automatické aktualizace** — aplikace se aktualizuje sama na pozadí
 - **Diagnostika** — odeslání diagnostického reportu pro technickou podporu
 

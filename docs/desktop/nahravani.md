@@ -61,10 +61,9 @@ karty nebo krátká poznámka).
 
 ## Odeslání nahrávky
 
-Po ukončení nahrávání se nahrávka odešle na server. Aktuálně se odesílá automaticky po zastavení.
+Po ukončení nahrávání se nahrávka odešle na server. Ve výchozím nastavení se odesílá automaticky po zastavení.
 
-!!! info "Připravujeme"
-    V budoucí verzi bude možné v nastavení zvolit mezi automatickým odesláním (výchozí) a manuálním odesláním, kdy si nahrávku před odesláním ještě zkontrolujete.
+V [nastavení aplikace](nastaveni.md#rezim-odesilani) můžete zvolit mezi automatickým a manuálním odesláním. Při manuálním režimu nahrávka zůstane ve stavu „nahráno" a odešlete ji ručně ze seznamu konzultací.
 
 ---
 
@@ -88,7 +87,7 @@ Typická doba zpracování je **30–90 sekund** v závislosti na délce konzult
 !!! tip "Mikrofon"
     - Doporučujeme konferenční mikrofon **Jabra** pro nejlepší výsledky
     - Umístěte mikrofon mezi lékaře a pacienta
-    - Výběr mikrofonu v aplikaci bude možný v budoucí verzi — aktuálně se používá výchozí systémový mikrofon
+    - Konkrétní mikrofon můžete zvolit v [nastavení aplikace](nastaveni.md#vyber-mikrofonu)
 
 !!! tip "Prostředí"
     - Minimalizujte hluk pozadí (klimatizace, rádio)
@@ -107,7 +106,7 @@ Typická doba zpracování je **30–90 sekund** v závislosti na délce konzult
 !!! tip "Délka nahrávky"
     - Optimální délka: 3–15 minut
     - Krátké nahrávky (<1 min) mohou obsahovat málo informací pro kvalitní zprávu
-    - Velmi dlouhé nahrávky (>30 min) prodlužují dobu zpracování
+    - Maximální délka jednoho nahrávání je **30 minut** — po dosažení limitu se nahrávání automaticky zastaví a nahrávka se odešle ke zpracování
 
 ### Kontrola mikrofonu { #kontrola-mikrofonu }
 
@@ -120,9 +119,9 @@ Během nahrávání se v aplikaci zobrazuje **ukazatel úrovně zvuku**
 Pokud ukazatel nereaguje:
 
 1. Zkontrolujte, zda je mikrofon připojen (USB / Bluetooth).
-2. V **Nastavení** ověřte vybraný mikrofon.
-3. Zkuste tlačítko **Test mikrofonu** v Nastavení.
-4. V systémovém nastavení Windows ověřte oprávnění k mikrofonu.
+2. V [nastavení](nastaveni.md#vyber-mikrofonu) ověřte, že je vybrán správný mikrofon.
+3. Zkuste tlačítko **Test mikrofonu** v nastavení.
+4. V systémovém nastavení operačního systému ověřte oprávnění k mikrofonu.
 
 Více viz [Řešení problémů — Mikrofon](../faq.md#mikrofon).
 

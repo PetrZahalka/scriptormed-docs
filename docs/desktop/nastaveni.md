@@ -87,18 +87,15 @@ Aktuální využití disku vidíte v sekci **Využití disku** v nastavení.
 
 ## Přenos licence na jiný počítač { #uvolneni-licence }
 
-Pokud potřebujete přenést ScriptorMed na jiný počítač (například při výměně PC), kontaktujte naši podporu:
+Pokud potřebujete přenést ScriptorMed na jiný počítač (například při výměně PC), můžete licenci uvolnit přímo v aplikaci:
 
-**E-mail:** [podpora@scriptormed.com](mailto:podpora@scriptormed.com)
+1. Otevřete **Nastavení**
+2. V sekci **Informace o licenci** klikněte na tlačítko **Uvolnit zařízení**
+3. Potvrďte uvolnění — licence se odpáruje od aktuálního počítače
+4. Na novém počítači nainstalujte ScriptorMed a zadejte stejný licenční klíč
 
-Uveďte prosím:
-
-- Název vaší ordinace
-- Důvod přenosu (nový počítač, reinstalace apod.)
-
-Licence bude uvolněna obvykle do jednoho pracovního dne.
-
-*V budoucí verzi bude možné licenci uvolnit přímo v aplikaci.*
+!!! warning "Limit uvolnění"
+    Uvolnění zařízení je omezeno na 3× za měsíc. Pokud limit překročíte, kontaktujte [podporu](../kontakt.md).
 
 ---
 
@@ -145,11 +142,32 @@ Aktuální verzi aplikace naleznete v dolní části nastavení. Při kontaktov�
 
 ---
 
+## Výběr mikrofonu { #vyber-mikrofonu }
+
+V nastavení si můžete zvolit konkrétní mikrofon připojený k počítači. Aplikace zobrazí seznam dostupných vstupních zařízení — USB mikrofony jsou zvýrazněny.
+
+1. Otevřete **Nastavení**
+2. V sekci **Mikrofon** vyberte požadované zařízení ze seznamu
+3. Tlačítkem **Test mikrofonu** ověřte, že mikrofon snímá zvuk
+4. Nastavení se uloží automaticky
+
+!!! tip "USB mikrofony"
+    Aplikace automaticky rozpozná USB mikrofony (např. Jabra) a zobrazí je na předním místě seznamu. Pokud vybraný mikrofon není dostupný při spuštění nahrávání, aplikace vás upozorní a nabídne výběr alternativy.
+
+---
+
+## Režim odesílání { #rezim-odesilani }
+
+V nastavení můžete zvolit, zda se nahrávky odesílají na server automaticky po ukončení nahrávání, nebo zda je odešlete ručně.
+
+- **Automatické odesílání** (výchozí) — nahrávka se odešle ihned po zastavení
+- **Manuální odesílání** — nahrávka zůstane ve stavu „nahráno" a odešlete ji ručně ze seznamu konzultací
+
+---
+
 ## Připravované funkce
 
 V budoucích verzích nastavení přibude:
 
-- **Výběr mikrofonu** — možnost zvolit konkrétní mikrofon připojený k počítači
 - **E-mail administračního účtu** — zobrazení e-mailu propojeného s portálem
-- **Režim odesílání** — volba mezi automatickým a manuálním odesláním nahrávky
 - **Kontrola aktualizací** — ruční spuštění kontroly dostupnosti nové verze

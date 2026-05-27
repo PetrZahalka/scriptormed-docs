@@ -33,18 +33,15 @@ V sekci **Licenční klíče** na portálu vidíte:
 
 ## Přenos na jiný počítač
 
-Pokud potřebujete přesunout ScriptorMed na nový počítač (například při výměně PC), kontaktujte naši podporu:
+Pokud potřebujete přesunout ScriptorMed na nový počítač (například při výměně PC), můžete licenci uvolnit přímo v desktop aplikaci:
 
-**E-mail:** [podpora@scriptormed.com](mailto:podpora@scriptormed.com)
+1. Otevřete **Nastavení** v desktop aplikaci
+2. V sekci **Informace o licenci** klikněte na **Uvolnit zařízení**
+3. Potvrďte uvolnění — licence se odpáruje od aktuálního počítače
+4. Na novém počítači nainstalujte ScriptorMed a zadejte stejný licenční klíč
 
-Uveďte prosím:
-
-- Název vaší ordinace
-- Důvod přenosu (nový počítač, reinstalace apod.)
-
-Licence bude uvolněna obvykle do jednoho pracovního dne. Po uvolnění nainstalujte ScriptorMed na nový počítač a zadejte stejný licenční klíč.
-
-*V budoucí verzi bude možné licenci uvolnit přímo v aplikaci nebo na portálu.*
+!!! warning "Limit uvolnění"
+    Uvolnění zařízení je omezeno na 3× za měsíc. Pokud potřebujete pomoc, kontaktujte [podporu](../kontakt.md).
 
 ---
 
