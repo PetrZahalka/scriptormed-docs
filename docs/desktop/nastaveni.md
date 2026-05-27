@@ -158,10 +158,19 @@ V nastavení si můžete zvolit konkrétní mikrofon připojený k počítači. 
 
 ## Režim odesílání { #rezim-odesilani }
 
-V nastavení můžete zvolit, zda se nahrávky odesílají na server automaticky po ukončení nahrávání, nebo zda je odešlete ručně.
+V nastavení můžete zvolit, jak se nahrávka odešle ke zpracování po jejím ukončení:
 
-- **Automatické odesílání** (výchozí) — nahrávka se odešle ihned po zastavení
-- **Manuální odesílání** — nahrávka zůstane ve stavu „nahráno" a odešlete ji ručně ze seznamu konzultací
+- **Automaticky (výchozí)** — po stisknutí **Zastavit** se nahrávka okamžitě odešle na server. Doporučujeme pro běžné použití.
+- **Manuálně** — nahrávka zůstane ve stavu „nahráno" v seznamu konzultací. Před odesláním si ji můžete přehrát a poté ručně odeslat tlačítkem **Odeslat**.
+
+### Jak změnit režim
+
+1. Otevřete **Nastavení**
+2. V sekci **Odesílání** vyberte preferovaný režim
+3. Nastavení se uloží automaticky
+
+!!! tip "Kdy zvolit manuální režim"
+    Manuální režim je užitečný, pokud chcete mít kontrolu nad odesláním — například u krátkých nahrávek, kde si nejste jistí kvalitou, nebo pokud pracujete offline a nahrávky chcete odeslat až později.
 
 ---
 
