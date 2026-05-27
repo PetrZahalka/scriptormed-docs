@@ -33,6 +33,7 @@ Kódy jsou **trvalé** — jednou přidělený kód není nikdy znovu použit. Z
 | `S3` | Úložiště (MinIO) | uživatel |
 | `PIPE` | Obecný pipeline | uživatel |
 | `SAVE` | Uložení výsledku | uživatel |
+| `LIC` | Licencování | uživatel |
 | `AUTH` | Autentizace | interní |
 | `EMAIL` | Doručování e-mailů | interní |
 | `PAY` | Platby | interní |
@@ -44,7 +45,7 @@ Kódy jsou **trvalé** — jednou přidělený kód není nikdy znovu použit. Z
 
 ## Viditelnost { #viditelnost }
 
-### Uživatelské kódy (domény UPLOAD – SAVE)
+### Uživatelské kódy (domény UPLOAD – LIC)
 
 Lékaři tyto kódy vidí přímo v **Desktop aplikaci** — v dialogu chyby po neúspěšném zpracování konzultace.
 
@@ -162,6 +163,24 @@ Chyby při finálním uložení zprávy a usage záznamu.
 | `SM-SAVE-002` | Chyba výpočtu nákladů. | Ne |
 | `SM-SAVE-003` | Chyba zápisu usage logu. | Ne |
 | `SM-SAVE-004` | Chyba finálního uložení. | Ano |
+
+### LIC — Licencování { #lic }
+
+Chyby související s licenčním klíčem, zařízením a limity účtu.
+
+| Kód | Zpráva | Znovu odeslat? | HTTP |
+|-----|--------|:--------------:|:----:|
+| `SM-LIC-001` | Neplatný licenční klíč. | Ne | 403 |
+| `SM-LIC-002` | Licence pozastavena. | Ne | 403 |
+| `SM-LIC-003` | Licence zrušena. | Ne | 403 |
+| `SM-LIC-004` | Platnost licence vypršela. | Ne | 403 |
+| `SM-LIC-005` | Účet pozastaven. | Ne | 403 |
+| `SM-LIC-006` | Účet zrušen. | Ne | 403 |
+| `SM-LIC-007` | Zařízení zablokováno. | Ne | 403 |
+| `SM-LIC-008` | Všechna zařízení obsazena. | Ne | 403 |
+| `SM-LIC-009` | Konzultace vyčerpány. | Ne | 429 |
+| `SM-LIC-010` | Překročen limit uvolnění zařízení. | Ne | 429 |
+| `SM-LIC-011` | Překročen denní limit zasílání klíče. | Ne | 429 |
 
 ---
 
