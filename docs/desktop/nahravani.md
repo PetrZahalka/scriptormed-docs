@@ -75,12 +75,28 @@ Po odeslání nahrávky se zobrazí indikátor průběhu:
 
 | Stav | Význam |
 |------|--------|
+| **Připraveno** | Rozpracovaná konzultace — nahrávání ještě neproběhlo nebo pokračuje později |
 | **Odesílání** | Nahrávka se nahrává na server |
 | **Zpracovává se** | Server přepisuje zvuk a generuje zprávu |
 | **Dokončeno** | Zpráva je připravena k zobrazení |
 | **Chyba** | Zpracování se nezdařilo (viz [Řešení problémů](../faq.md)) |
+| **Odmítnuto** | Server nahrávku opakovaně odmítl — automatické odesílání se zastavilo (viz níže) |
 
-Typická doba zpracování je **30–90 sekund** v závislosti na délce konzultace.
+Typická doba zpracování je **30–90 sekund** v závislosti na délce konzultace. U dlouhých nahrávek může samotné odeslání trvat i několik minut — **aplikaci během odesílání neukončujte**.
+
+### Stav „Odmítnuto" { #stav-odmitnuto }
+
+Pokud server nahrávku odmítne **pětkrát po sobě se stejným výsledkem**, aplikace přestane odesílání automaticky opakovat a konzultaci označí červeným štítkem **Odmítnuto**:
+
+- v detailu konzultace vidíte **důvod od serveru**,
+- tlačítkem **Zkusit znovu** vrátíte nahrávku do fronty a odeslání se ihned zopakuje,
+- nahrávka **zůstává uložená v počítači** — nikdy se nemaže.
+
+Dočasné výpadky (internet, přetížený server) se tohoto stavu netýkají — ty aplikace řeší dál automaticky bez omezení.
+
+### Zkušební období a nahrávání { #trial-a-nahravani }
+
+Po vypršení trialu (včetně ochranné lhůty do následujícího pracovního dne) nelze **začít novou nahrávku** — aplikace zobrazí „Trial vypršel — pro pokračování upgradujte." Rozpracované konzultace (pauza, dovyšetření) a odeslání už nahraného fungují dál. Poslední den trialu se zobrazuje upozornění „Trial končí, poslední den."
 
 ---
 

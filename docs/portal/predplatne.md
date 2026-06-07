@@ -70,9 +70,12 @@ Top-upy lze zakoupit **platební kartou** přímo na portálu, nebo bankovním p
 
 České faktury se generují automaticky po každé platbě:
 
-- Obsahují IČO, DIČ (pokud je plátce DPH), DPH 21 %
+- Vystavuje Temvara Systems s.r.o. — **neplátce DPH** (uvedené ceny jsou konečné)
 - Ke stažení v PDF na portálu v sekci **Faktury**
-- Kopie se posílá e-mailem
+- Kopie se posílá e-mailem; v sekci Faktury lze e-mail kdykoli **odeslat znovu**
+
+!!! info "Report využití"
+    Na konci každého účtovacího období dostanete k fakturačnímu e-mailu navíc PDF přílohu **Report využití** — přehled konzultací (v plánu / top-up / nad limit), servisních přepracování, celkové délky nahrávek a trendu oproti minulému období. Není to faktura, jen informativní přehled; ve zkušebním období se neposílá.
 
 ---
 

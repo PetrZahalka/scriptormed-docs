@@ -98,6 +98,8 @@ Chyby při přípravě a normalizaci audia před přepisem.
 | `SM-PREP-003` | Chyba analýzy hlasitosti. | Ano |
 | `SM-PREP-004` | Chyba zpracování audia. | Ano |
 | `SM-PREP-005` | Preprocessing selhalo. | Ano |
+| `SM-PREP-006` | Nepodporovaný formát audia. | Ne |
+| `SM-PREP-007` | Dekódování OGG/Opus audia selhalo. | Ne |
 
 ### STT — Speech-to-Text { #stt }
 
@@ -239,6 +241,21 @@ Následující domény jsou viditelné pouze v admin panelu a Sentry. Lékaři t
 | `SM-INFRA-001` | Redis nedostupný. | Ano |
 | `SM-INFRA-002` | Redis init fail. | Ne |
 | `SM-INFRA-003` | DB commit selhání. | Ano |
+
+---
+
+## Hlášky licence a zkušebního období { #hlasky-licence }
+
+Kromě chybových kódů zobrazuje Desktop aplikace tyto hlášky (nejsou to chyby zpracování — týkají se licence a trialu):
+
+| Hláška | Kdy se zobrazí | Co dělat |
+|--------|----------------|----------|
+| „Trial končí, poslední den." | Poslední den zkušebního období a během ochranné lhůty | Vyberte si plán na [portálu](../portal/predplatne.md) — vše nahrané zůstává |
+| „Trial vypršel — pro pokračování upgradujte." | Po konci trialu vč. ochranné lhůty, při pokusu začít novou nahrávku | Novou nahrávku nelze začít; rozpracovaná práce a odeslání běží dál. Upgradujte na portálu |
+| „Zkušební období vypršelo. Pro pokračování kontaktujte ScriptorMed." (banner) + „Trial vypršel" (stavový řádek) | Po vypršení trialu | Upgrade na portálu nebo [kontakt](kontakt.md) |
+| „Problém s licenčním klíčem. Nahrávání funguje, odesílání se obnoví po opravě klíče v Nastavení." | Neplatný/zrušený klíč nebo klíč vázaný na jiné zařízení | **Nahrávání není blokováno.** Opravte klíč v Nastavení — čekající nahrávky se pak odešlou samy |
+
+Rozdíl mezi vypršeným trialem a chybným klíčem: trial blokuje **začátek nové nahrávky**, chybný klíč nahrávání neblokuje (jen pozastaví odesílání do opravy).
 
 ---
 
