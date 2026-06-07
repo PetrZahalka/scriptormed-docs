@@ -250,7 +250,7 @@ Kromě chybových kódů zobrazuje Desktop aplikace tyto hlášky (nejsou to chy
 
 | Hláška | Kdy se zobrazí | Co dělat |
 |--------|----------------|----------|
-| „Trial končí, poslední den." | Poslední den zkušebního období a během ochranné lhůty | Vyberte si plán na [portálu](../portal/predplatne.md) — vše nahrané zůstává |
+| „Trial končí, poslední den." | Poslední den zkušebního období a během ochranné lhůty | Vyberte si plán na [portálu](portal/predplatne.md) — vše nahrané zůstává |
 | „Trial vypršel — pro pokračování upgradujte." | Po konci trialu vč. ochranné lhůty, při pokusu začít novou nahrávku | Novou nahrávku nelze začít; rozpracovaná práce a odeslání běží dál. Upgradujte na portálu |
 | „Zkušební období vypršelo. Pro pokračování kontaktujte ScriptorMed." (banner) + „Trial vypršel" (stavový řádek) | Po vypršení trialu | Upgrade na portálu nebo [kontakt](kontakt.md) |
 | „Problém s licenčním klíčem. Nahrávání funguje, odesílání se obnoví po opravě klíče v Nastavení." | Neplatný/zrušený klíč nebo klíč vázaný na jiné zařízení | **Nahrávání není blokováno.** Opravte klíč v Nastavení — čekající nahrávky se pak odešlou samy |
