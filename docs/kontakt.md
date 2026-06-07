@@ -12,8 +12,8 @@ description: Technická podpora ScriptorMed — kontaktní údaje
 | | |
 |---|---|
 | **E-mail** | [podpora@scriptormed.com](mailto:podpora@scriptormed.com) |
+| **Web** | [www.scriptormed.com](https://www.scriptormed.com) |
 | **Portál** | [app.scriptormed.com](https://app.scriptormed.com) |
-| **Dokumentace** | [docs.scriptormed.com](https://docs.scriptormed.com) |
 
 ---
 

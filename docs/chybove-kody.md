@@ -266,7 +266,7 @@ Rozdíl mezi vypršeným trialem a chybným klíčem: trial blokuje **začátek 
     Pokud Desktop aplikace zobrazí chybový kód, poznamenejte si ho a kontaktujte podporu:
 
     - **E-mail:** podpora@scriptormed.com
-    - **Další kontakty:** [stránka Kontakt](kontakt.md)
+    - **Formulář:** [scriptormed.com/kontakt](https://www.scriptormed.com/kontakt)
 
     Kód nám umožní okamžitě identifikovat příčinu a navrhnout řešení. Pokud je u kódu uvedeno „Znovu odeslat: Ano", lze konzultaci zkusit zpracovat znovu — přejděte do seznamu konzultací a vyberte možnost *Zpracovat znovu*.
 
