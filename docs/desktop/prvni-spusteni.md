@@ -28,7 +28,7 @@ Po instalaci je potřeba aplikaci propojit s vaším účtem pomocí **licenčn�
 <div class="step" markdown>
 <span class="step-number">3</span>
 <div class="step-content" markdown>
-**Ověřte připojení** — aplikace automaticky ověří platnost klíče. Zelený indikátor :material-check-circle:{ style="color: #43A65E" } znamená úspěšné připojení.
+**Ověřte připojení** — aplikace automaticky ověří platnost klíče. Zelený indikátor :material-check-circle:{ style="color: #43A65E" } znamená úspěšné připojení. U zkušební verze si aplikace zároveň uloží datum, do kdy je **nahrávání povoleno** (konec trialu + ochranná lhůta do následujícího pracovního dne) — poslední den a během ochranné lhůty zobrazí upozornění „Trial končí".
 </div>
 </div>
 

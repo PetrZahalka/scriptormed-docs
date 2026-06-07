@@ -163,6 +163,9 @@ V nastavení můžete zvolit, jak se nahrávka odešle ke zpracování po jejím
 - **Automaticky (výchozí)** — po stisknutí **Zastavit** se nahrávka okamžitě odešle na server. Doporučujeme pro běžné použití.
 - **Manuálně** — nahrávka zůstane ve stavu „nahráno" v seznamu konzultací. Před odesláním si ji můžete přehrát a poté ručně odeslat tlačítkem **Odeslat**.
 
+!!! info "Automatické opakování odeslání"
+    Pokud se odeslání nepodaří (výpadek internetu, nedostupný server), v automatickém režimu **nemusíte nic dělat** — aplikace nedoručené nahrávky průběžně zkouší odeslat znovu na pozadí (s postupně rostoucím odstupem). Počet čekajících nahrávek ukazuje nenápadný indikátor „n čeká" ve stavovém řádku. V manuálním režimu indikátor čekající nahrávky pouze počítá — odeslání je na vás.
+
 ### Jak změnit režim
 
 1. Otevřete **Nastavení**

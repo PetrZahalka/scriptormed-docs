@@ -65,6 +65,8 @@ Po ukončení nahrávání se nahrávka odešle na server. Ve výchozím nastave
 
 V [nastavení aplikace](nastaveni.md#rezim-odesilani) můžete zvolit mezi automatickým a manuálním odesláním. Při manuálním režimu nahrávka zůstane ve stavu „nahráno" a odešlete ji ručně ze seznamu konzultací.
 
+Pokud odeslání selže (např. výpadek internetu), aplikace ho v automatickém režimu **opakuje sama na pozadí** s postupně rostoucím odstupem — nahrávka se neztratí a není potřeba nic dělat. Počet čekajících nahrávek ukazuje indikátor „n čeká" ve stavovém řádku.
+
 ---
 
 ## Stavy zpracování { #stavy-konzultaci }

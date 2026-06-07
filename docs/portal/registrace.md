@@ -62,6 +62,10 @@ Po registraci začíná **14denní zkušební období** s těmito parametry:
 !!! info "Po skončení trial"
     Po uplynutí zkušebního období vás portál vyzve k výběru placeného plánu. Vaše data zůstanou zachována.
 
+    **Ochranná lhůta:** nahrávání funguje ještě do **následujícího pracovního dne** po konci trialu — pokud trial skončí v pátek nebo před státním svátkem, můžete přes víkend či svátek normálně pracovat. Během této lhůty zůstává účet plně aktivní (odesílání i zpracování nahrávek běží) a aplikace zobrazuje upozornění, že trial končí.
+
+    Tři dny před koncem zkušebního období vám pošleme upozornění e-mailem.
+
 ---
 
 ## Zapomenuté heslo { #reset-hesla }

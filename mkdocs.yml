@@ -59,8 +59,8 @@ extra_css:
 extra:
   social:
     - icon: fontawesome/solid/globe
-      link: https://www.scriptormed.com
-      name: ScriptorMed Web
+      link: https://app.scriptormed.com
+      name: ScriptorMed Portál
     - icon: fontawesome/solid/envelope
       link: mailto:podpora@scriptormed.com
       name: Podpora

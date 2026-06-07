@@ -173,8 +173,8 @@ Chyby související s licenčním klíčem, zařízením a limity účtu.
 | `SM-LIC-001` | Neplatný licenční klíč. | Ne | 403 |
 | `SM-LIC-002` | Licence pozastavena. | Ne | 403 |
 | `SM-LIC-003` | Licence zrušena. | Ne | 403 |
-| `SM-LIC-004` | Platnost licence vypršela. | Ne | 403 |
-| `SM-LIC-005` | Účet pozastaven. | Ne | 403 |
+| `SM-LIC-004` | Platnost trial verze vypršela. | Ne | 403 |
+| `SM-LIC-005` | Účet neaktivní. | Ne | 403 |
 | `SM-LIC-006` | Účet zrušen. | Ne | 403 |
 | `SM-LIC-007` | Zařízení zablokováno. | Ne | 403 |
 | `SM-LIC-008` | Všechna zařízení obsazena. | Ne | 403 |
@@ -249,7 +249,7 @@ Následující domény jsou viditelné pouze v admin panelu a Sentry. Lékaři t
     Pokud Desktop aplikace zobrazí chybový kód, poznamenejte si ho a kontaktujte podporu:
 
     - **E-mail:** podpora@scriptormed.com
-    - **Formulář:** [scriptormed.com/kontakt](https://www.scriptormed.com/kontakt)
+    - **Další kontakty:** [stránka Kontakt](kontakt.md)
 
     Kód nám umožní okamžitě identifikovat příčinu a navrhnout řešení. Pokud je u kódu uvedeno „Znovu odeslat: Ano", lze konzultaci zkusit zpracovat znovu — přejděte do seznamu konzultací a vyberte možnost *Zpracovat znovu*.
 
