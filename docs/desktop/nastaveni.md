@@ -177,6 +177,19 @@ V nastavení můžete zvolit, jak se nahrávka odešle ke zpracování po jejím
 
 ---
 
+## Stavový řádek předplatného { #billing-status }
+
+Aplikace zobrazuje nenápadný přehled předplatného:
+
+- aktuální **plán** a čerpání konzultací v období (např. `42/100`), případný **top-up** zůstatek,
+- u jiného než měsíčního účtování i interval — *(čtvrtletně)* / *(ročně)*,
+- u zkušební verze štítek **Zkušební verze** a počet zbývajících dní,
+- při naplánovaném přechodu na nižší plán upozornění, od kdy začne platit.
+
+Podrobnosti a změny plánu řešíte na [portálu](../portal/predplatne.md).
+
+---
+
 ## Připravované funkce
 
 V budoucích verzích nastavení přibude:

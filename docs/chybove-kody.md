@@ -270,6 +270,8 @@ Rozdíl mezi vypršeným trialem a chybným klíčem: trial blokuje **začátek 
 
     Kód nám umožní okamžitě identifikovat příčinu a navrhnout řešení. Pokud je u kódu uvedeno „Znovu odeslat: Ano", lze konzultaci zkusit zpracovat znovu — přejděte do seznamu konzultací a vyberte možnost *Zpracovat znovu*.
 
+    Pokud aplikace hlásí **chybějící audio soubor** (např. po neočekávaném vypnutí počítače), použijte opravu dat: **Nastavení → Podpora → Opravit data** — aplikace porovná stav se serverem a zaseknuté konzultace obnoví.
+
 === "Administrátor"
 
     V admin panelu jsou kódy zobrazeny v detailu každé chyby. Použijte kód jako filtr nebo vyhledejte incident v Sentry pomocí tagu `error_code`.
