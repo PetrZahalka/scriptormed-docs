@@ -116,6 +116,15 @@ nav:
     - Předplatné a fakturace: portal/predplatne.md
     - Licenční klíče: portal/licencni-klice.md
     - Pacientské formuláře: portal/formulare.md
+    - Úhrady:
+      - Přehled modulu: portal/uhrady/index.md
+      - Nahrávání dat: portal/uhrady/nahravani-dat.md
+      - Maximální úhrada a strop: portal/uhrady/maxu-cerpani.md
+      - Pojištěnci a MNP: portal/uhrady/pojistenci-mnp.md
+      - Kontrola vykazování: portal/uhrady/kontrola.md
+      - Nastavení a dodatky: portal/uhrady/nastaveni-dodatky.md
+      - Zkušební režim: portal/uhrady/zkusebni-rezim.md
+      - Slovníček pojmů: portal/uhrady/slovnicek.md
   - Řešení problémů: faq.md
   - Chybové kódy: chybove-kody.md
   - Kontakt: kontakt.md
