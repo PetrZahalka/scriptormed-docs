@@ -20,6 +20,17 @@ description: Plány, ceny a správa předplatného ScriptorMed
 
 ---
 
+## Modul Úhrady (doplněk) { #uhrady }
+
+**Úhrady** je doplňkový modul ScriptorMedu — analytika úhrad zdravotních pojišťoven (maximální úhrada, čerpání stropu, kontrola vykazování, rekonciliace s vyúčtováním). Podrobnosti najdete na [stránce modulu Úhrady](https://www.scriptormed.com/uhrady).
+
+Ve **zkušebním režimu** si modul vyzkoušíte na ukázkových (anonymizovaných) datech a můžete nahrát **až 5 vlastních K-dávek**. Po aktivaci předplatného se ukázková data automaticky odstraní a nahrávání je neomezené.
+
+!!! info "Aktivace a cena"
+    Modul Úhrady se aktivuje na vyžádání. Pro cenovou nabídku a zapnutí kontaktujte podporu na [podpora@scriptormed.com](mailto:podpora@scriptormed.com).
+
+---
+
 ## Jak funguje čerpání { #cerpani }
 
 Konzultace se čerpají v tomto pořadí:

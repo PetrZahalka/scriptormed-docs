@@ -34,6 +34,7 @@ Kódy jsou **trvalé** — jednou přidělený kód není nikdy znovu použit. Z
 | `PIPE` | Obecný pipeline | uživatel |
 | `SAVE` | Uložení výsledku | uživatel |
 | `LIC` | Licencování | uživatel |
+| `UHRADY` | Modul Úhrady — zpracování K-dávek | uživatel |
 | `AUTH` | Autentizace | interní |
 | `EMAIL` | Doručování e-mailů | interní |
 | `PAY` | Platby | interní |
@@ -183,6 +184,16 @@ Chyby související s licenčním klíčem, zařízením a limity účtu.
 | `SM-LIC-009` | Konzultace vyčerpány. | Ne | 429 |
 | `SM-LIC-010` | Překročen limit uvolnění zařízení. | Ne | 429 |
 | `SM-LIC-011` | Překročen denní limit zasílání klíče. | Ne | 429 |
+
+---
+
+### UHRADY — Modul Úhrady { #uhrady }
+
+Chyby při zpracování nahrané K-dávky v modulu Úhrady.
+
+| Kód | Zpráva | Znovu odeslat? |
+|-----|--------|:--------------:|
+| `SM-UHR-PARSE-001` | K-dávku se nepodařilo zpracovat (neplatný formát souboru). | Ne |
 
 ---
 
