@@ -1,5 +1,5 @@
 ---
-title: Úhrady – zkušební režim
+title: Plenia – zkušební režim
 description: Ukázková data, limit nahrávání během zkušebního období a přechod na vlastní data.
 ---
 
@@ -34,11 +34,11 @@ Po vyčerpání limitu se zobrazí upozornění. Faktury a PDF dokumenty limitu 
 Jakmile začnete pracovat s vlastními daty nebo aktivujete předplatné, **ukázková data se automaticky odstraní** – zůstanou jen vaše reálná data. Demo a vaše data se tak nikdy nesmíchají.
 
 !!! info "Aktivace modulu"
-    Modul Úhrady se aktivuje jako součást vašeho předplatného. Pro zapnutí kontaktujte podporu – viz [Kontakt](../../kontakt.md).
+    Plenia je placený doplněk za **14 900 Kč/rok za ordinaci** (neplátce DPH, cena konečná). Po vyzkoušení ji aktivujete na vyžádání u podpory – viz [Kontakt](../../kontakt.md).
 
 ---
 
 ## Související { #souvisejici }
 
 - Jak nahrát vlastní data: [Nahrávání dat](nahravani-dat.md)
-- Úvod do modulu: [Úhrady – přehled](index.md)
+- Úvod do modulu: [Plenia – přehled](index.md)

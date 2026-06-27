@@ -1,5 +1,5 @@
 ---
-title: Úhrady – nastavení a dodatky
+title: Plenia – nastavení a dodatky
 description: Zadání úředních sazeb, archiv dokumentů pojišťovny a práce s úhradovými dodatky.
 ---
 

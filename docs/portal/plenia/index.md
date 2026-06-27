@@ -1,11 +1,11 @@
 ---
-title: Úhrady – přehled modulu
+title: Plenia – přehled modulu
 description: Analytika úhrad zdravotních pojišťoven – maximální úhrada, čerpání stropu, kontrola vykazování a podklady pro rozhodování.
 ---
 
-# Úhrady
+# Plenia
 
-Modul **Úhrady** vám ukáže, jak na tom jste s úhradami od zdravotních pojišťoven – počítá je z vašich vlastních vykázaných dat (z odeslaných dávek) podle platné úhradové vyhlášky a porovnává je s ročním vyúčtováním pojišťovny.
+Modul **Plenia** vám ukáže, jak na tom jste s úhradami od zdravotních pojišťoven – počítá je z vašich vlastních vykázaných dat (z odeslaných dávek) podle platné úhradové vyhlášky a porovnává je s ročním vyúčtováním pojišťovny.
 
 Je určen lékaři a účetní ordinace. Odpovídá na otázky, na které se z papírového vyúčtování špatně hledá odpověď:
 

@@ -1,6 +1,6 @@
 ---
-title: Úhrady – nahrávání dat
-description: Jak do modulu Úhrady odeslat K-dávky, faktury a PDF vyúčtování či dodatky a jak sledovat pokrytí měsíců.
+title: Plenia – nahrávání dat
+description: Jak do modulu Plenia odeslat K-dávky, faktury a PDF vyúčtování či dodatky a jak sledovat pokrytí měsíců.
 ---
 
 # Nahrávání dat
@@ -32,7 +32,7 @@ Po odeslání se soubory zpracují na pozadí – nemusíte čekat.
 - **PDF dokumenty** se zpracovávají déle (rozpoznávají se z nich hodnoty); u každého vidíte stav: *čeká na zpracování*, *zpracovává se*, *hotovo*, případně *chyba*.
 
 !!! warning "Citlivá péče o sdílené zdroje"
-    Rozpoznávání hodnot z PDF má nižší prioritu než zpracování diktovaných konzultací – aby Úhrady nikdy nezpomalily hlavní práci. Při větším množství dokumentů proto může chvíli trvat, než se všechny zpracují.
+    Rozpoznávání hodnot z PDF má nižší prioritu než zpracování diktovaných konzultací – aby Plenia nikdy nezpomalila hlavní práci. Při větším množství dokumentů proto může chvíli trvat, než se všechny zpracují.
 
 ---
 

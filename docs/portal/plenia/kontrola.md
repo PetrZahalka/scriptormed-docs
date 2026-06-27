@@ -1,5 +1,5 @@
 ---
-title: Úhrady – kontrola vykazování
+title: Plenia – kontrola vykazování
 description: Kontrola frekvenčních omezení výkonů a porovnání vašich dat s vyúčtováním pojišťovny jako podklad pro odvolání.
 ---
 

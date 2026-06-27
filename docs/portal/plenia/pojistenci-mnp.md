@@ -1,5 +1,5 @@
 ---
-title: Úhrady – pojištěnci a mimořádně nákladní
+title: Plenia – pojištěnci a mimořádně nákladní
 description: Rozdělení pojištěnců do zón, identifikace mimořádně nákladných (MNP) a kandidátů, kteří se vyplatí podchytit.
 ---
 

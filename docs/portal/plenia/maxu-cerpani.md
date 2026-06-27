@@ -1,5 +1,5 @@
 ---
-title: Úhrady – maximální úhrada a čerpání stropu
+title: Plenia – maximální úhrada a čerpání stropu
 description: Co je maximální úhrada (MAXÚ), jak číst čerpání stropu a jakými cestami úhradu optimalizovat.
 ---
 

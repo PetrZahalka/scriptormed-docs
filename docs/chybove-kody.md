@@ -34,7 +34,7 @@ Kódy jsou **trvalé** — jednou přidělený kód není nikdy znovu použit. Z
 | `PIPE` | Obecný pipeline | uživatel |
 | `SAVE` | Uložení výsledku | uživatel |
 | `LIC` | Licencování | uživatel |
-| `UHRADY` | Modul Úhrady — zpracování K-dávek | uživatel |
+| `UHRADY` | Modul Plenia — zpracování K-dávek | uživatel |
 | `AUTH` | Autentizace | interní |
 | `EMAIL` | Doručování e-mailů | interní |
 | `PAY` | Platby | interní |
@@ -187,9 +187,9 @@ Chyby související s licenčním klíčem, zařízením a limity účtu.
 
 ---
 
-### UHRADY — Modul Úhrady { #uhrady }
+### UHRADY — Modul Plenia { #uhrady }
 
-Chyby při zpracování nahrané K-dávky v modulu Úhrady.
+Chyby při zpracování nahrané K-dávky v modulu Plenia.
 
 | Kód | Zpráva | Znovu odeslat? |
 |-----|--------|:--------------:|

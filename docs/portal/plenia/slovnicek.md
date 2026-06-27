@@ -1,11 +1,11 @@
 ---
-title: Úhrady – slovníček pojmů
-description: Srozumitelné vysvětlení pojmů z modulu Úhrady i z úředního vyúčtování pojišťoven – MAXÚ, PUROo, KN, MNP, strop a další.
+title: Plenia – slovníček pojmů
+description: Srozumitelné vysvětlení pojmů z modulu Plenia i z úředního vyúčtování pojišťoven – MAXÚ, PUROo, KN, MNP, strop a další.
 ---
 
 # Slovníček pojmů
 
-Tyto výrazy potkáte v modulu Úhrady i na úředním vyúčtování od pojišťovny. Vysvětlení je zjednodušující – cílem je, abyste se v číslech zorientovali, ne nahradit znění úhradové vyhlášky.
+Tyto výrazy potkáte v modulu Plenia i na úředním vyúčtování od pojišťovny. Vysvětlení je zjednodušující – cílem je, abyste se v číslech zorientovali, ne nahradit znění úhradové vyhlášky.
 
 ---
 
