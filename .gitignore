@@ -7,6 +7,10 @@ tasks/
 # mkdocs build output (Cloudflare auto-builds from requirements.txt + mkdocs build)
 site/
 
+# docs.plenia.cz — generovaný vstup i výstup (zdroj pravdy: docs/portal/plenia/ + plenia-src/)
+docs-plenia/
+site-plenia/
+
 # macOS junk
 .DS_Store
 

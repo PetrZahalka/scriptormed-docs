@@ -23,7 +23,7 @@ V **Přehledu** vidíte maximální úhradu pro každou pojišťovnu a rok, mezi
 
 Na obrazovce **Čerpání stropu** vidíte, kolik z maximální úhrady už máte vykázáno, graf vývoje stropu během roku a transparentní projekci do konce roku (je vidět, z čeho se počítá):
 
-- **Limitovaná péče** – co se započítává do stropu.
+- **Limitovaná péče** – co se započítává do stropu, včetně zvlášť účtovaného materiálu a léčiv (ZÚM/ZÚLP); body jsou oceněné vaší skutečnou hodnotou bodu včetně splněných bonifikací.
 - **Rezerva** – kolik ještě můžete vykázat, než strop naplníte.
 - **Čerpání v %** – jak blízko jste ke stropu.
 

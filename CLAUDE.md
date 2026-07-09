@@ -13,6 +13,24 @@
    - `../scriptormed-backend/CONTEXT.md` — aktuální stav backendu
    - `../scriptormed-desktop/CONTEXT.md` — aktuální stav desktopu
 
+## Dva weby z jednoho repa
+
+Repo builduje **dva dokumentační weby**:
+
+| Web | Config | Obsah |
+|-----|--------|-------|
+| docs.scriptormed.com | `mkdocs.yml` | celé `docs/` (Desktop, Portál, Plenia, FAQ…) |
+| docs.plenia.cz | `mkdocs-plenia.yml` + `build-plenia.sh` | jen Plenia — kopíruje se z `docs/portal/plenia/` + `plenia-src/` (kontakt) |
+
+**Zdroj pravdy Plenia stránek je VÝHRADNĚ `docs/portal/plenia/`** — builduje se do obou webů. Adresáře `docs-plenia/` a `site-plenia/` jsou generované (gitignored), needituj je. Stránky specifické jen pro plenia.cz web (kontakt) žijí v `plenia-src/`.
+
+Po každé změně Plenia stránek ověř OBA buildy:
+```
+mkdocs build --strict
+MKDOCS=.venv/bin/mkdocs bash build-plenia.sh
+```
+Pozn.: v Plenia stránkách neodkazuj na stránky mimo `docs/portal/plenia/` — na plenia.cz webu neexistují. Jediná povolená výjimka je `../../kontakt.md` (build skript ji přepisuje na lokální `kontakt.md`).
+
 ## Klíčové pravidlo
 
 > **Dokumentace musí odrážet SOUČASNÝ stav aplikace — nikdy plánované/budoucí funkce.**

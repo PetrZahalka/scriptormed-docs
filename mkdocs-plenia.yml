@@ -1,0 +1,109 @@
+# Konfigurace samostatného webu docs.plenia.cz
+# Obsah se NEEDITUJE v docs-plenia/ (generovaný adresář) — zdroj pravdy je
+# docs/portal/plenia/. Sestavení: bash build-plenia.sh (viz hlavička skriptu).
+
+site_name: Plenia Dokumentace
+site_url: https://docs.plenia.cz
+site_description: Uživatelská dokumentace Plenia — analytika úhrad zdravotních pojišťoven pro ambulantní specialisty
+site_author: Temvara Systems s.r.o.
+
+copyright: "&copy; 2026 Temvara Systems s.r.o."
+
+docs_dir: docs-plenia
+site_dir: site-plenia
+
+theme:
+  name: material
+  language: cs
+  # TODO (Petr): dodat Plenia logo + favicon (assets/images/), zatím textový název
+
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-7
+        name: Přepnout na tmavý režim
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-4
+        name: Přepnout na světlý režim
+
+  font:
+    text: Plus Jakarta Sans
+    code: JetBrains Mono
+
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.tracking
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - search.share
+    - toc.follow
+    - content.tooltips
+
+extra_css:
+  - assets/css/temvara.css
+
+extra:
+  social:
+    - icon: fontawesome/solid/globe
+      link: https://www.plenia.cz
+      name: Plenia Web
+    - icon: fontawesome/solid/envelope
+      link: mailto:podpora@scriptormed.com
+      name: Podpora
+
+  generator: false
+
+plugins:
+  - search:
+      lang: cs
+  - minify:
+      minify_html: true
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      title: Na této stránce
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.critic
+
+nav:
+  - Přehled modulu: index.md
+  - Rychlý průvodce: rychly-pruvodce.md
+  - Nahrávání dat: nahravani-dat.md
+  - Kokpit a Cash-flow: kokpit-cashflow.md
+  - Maximální úhrada a strop: maxu-cerpani.md
+  - Pojištěnci a MNP: pojistenci-mnp.md
+  - Kontrola vykazování: kontrola.md
+  - Plánování a simulace: planovani-simulace.md
+  - Reporty a roční uzávěrka: reporty-uzaverka.md
+  - Nastavení a dodatky: nastaveni-dodatky.md
+  - Zkušební režim: zkusebni-rezim.md
+  - Slovníček pojmů: slovnicek.md
+  - Kontakt: kontakt.md

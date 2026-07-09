@@ -18,6 +18,7 @@ Stručný report pro rychlé rozhodování:
 - **souhrn vyčíslených doporučení** – „až ~X Kč" (horní odhad), co lze ještě letos získat,
 - **pás pokrytí dat** za měsíce I–XII (nahráno / bez výkonů / chybí) s upozorněním na možná podhodnocená čísla,
 - **meziroční srovnání** se stejnými měsíci předchozího roku (zobrazí se, jen pokud data za předchozí rok existují),
+- **vývoj PURO** – běžná úhrada na pojištěnce v letošním roce vs referenční PUROo, vyčísleno i procentem; pokud klesá pod referenční, report upozorní, že si tím snižujete referenční hodnoty pro příští roky,
 - měsíční graf péče vs úhrady.
 
 ---
@@ -28,8 +29,10 @@ Detailní rozbor pro toho, kdo chce vidět „jak se k číslům došlo":
 
 - barevně rozepsané vzorce **PUROo a MAXÚ** s dosazenými hodnotami,
 - **vyloučené doklady** po zdrojových souborech s důvodem vyloučení,
-- **segmenty pojištěnců** (děti do 15 let, jen telefonická konzultace, úhrada za mimořádně nákladné v referenčním období),
-- rozpad zvlášť účtovaného materiálu a léčiv (**ZÚM/ZÚLP**) po kódech SÚKL – který přípravek kolik stojí,
+- rozpad **péče hrazené v plné výši** po kategoriích (děti do 15 let, distanční výkony, nově nasmlouvané výkony, výkony nad rámec paušálu…),
+- **segmenty pojištěnců** včetně jmenovitých seznamů (děti do 15 let, jen telefonická konzultace, mimořádně nákladní v referenčním období),
+- **podíl nových pojištěnců** (bez výkonu v předchozích 3 letech) vůči prahům bonifikace 5 % a 10 %,
+- rozpad zvlášť účtovaného materiálu a léčiv (**ZÚM/ZÚLP**) po přípravcích – název a kód SÚKL, který přípravek kolik stojí,
 - souhrn zón pojištěnců a akční detail (mimořádně nákladní, kandidáti, nejnákladnější ostatní).
 
 !!! tip "Úřední referenční hodnoty"
