@@ -21,7 +21,16 @@ Tyto výrazy potkáte v modulu Plenia i na úředním vyúčtování od pojišť
 : Soubor s vykázanou péčí, který odesíláte pojišťovně z ordinačního programu. Je hlavním zdrojem dat pro modul – obsahuje doklady, výkony a zvlášť účtovaný materiál.
 
 **Roční vyúčtování**
-: Dokument, kterým pojišťovna na konci roku vyčíslí, kolik vám uznala a zaplatila. Modul z něj umí rozpoznat sazby a slouží k porovnání s vlastním výpočtem.
+: Dokument, kterým pojišťovna po konci roku (vypořádání do 150 dnů) vyčíslí, kolik vám uznala a zaplatila. Modul z něj umí rozpoznat sazby a slouží k porovnání s vlastním výpočtem.
+
+**Referenční hodnoty (RH-LIM)**
+: Dokument, kterým pojišťovna sděluje úřední hodnoty referenčního období (PUROo a další). Mají přednost před odhadem z vašich dat – po jejich zadání výpočet přesně odpovídá číslům pojišťovny.
+
+**Zálohy (předběžná úhrada)**
+: Měsíční platby, které pojišťovna posílá v průběhu roku. Do modulu se dostanou z dávek faktur (FDAVKA) nebo ručním zápisem; definitivně se vyrovnají ročním vyúčtováním.
+
+**Saldo**
+: Rozdíl mezi tím, co vám za rok náleží, a tím, co pojišťovna zatím zaplatila. V běžícím roce jde o průběžné saldo záloh.
 
 ---
 
@@ -38,6 +47,12 @@ Tyto výrazy potkáte v modulu Plenia i na úředním vyúčtování od pojišť
 
 **Mimo strop**
 : Péče hrazená v plné výši nad rámec stropu – nevstupuje do maximální úhrady. Patří sem například signální a distanční výkony, od roku 2026 péče o děti do 15 let a nově nasmlouvané výkony (po omezenou dobu).
+
+**Bez regulačního omezení (do 100 pojištěnců)**
+: Pokud jste v referenčním nebo v hodnoceném (kompletním) roce ošetřili nejvýše 100 unikátních pojištěnců dané pojišťovny, strop se neuplatní a péče se hradí v plné výši.
+
+**Signální výkon**
+: Výkon, kterým se pojišťovně hlásí klinické vyšetření (kódy se liší podle věku pojištěnce). Hradí se mimo strop – jeho opomenutí nebo chybný kód znamená ztrátu; modul obojí hlídá na Kontrole.
 
 ---
 
@@ -56,14 +71,14 @@ Tyto výrazy potkáte v modulu Plenia i na úředním vyúčtování od pojišť
 : Kolik korun připadá na jeden vykázaný bod. Ovlivňuje, kolik dostanete za vykázanou péči pod stropem.
 
 **Bonifikace**
-: Splněné ukazatele kvality a dostupnosti (ordinační hodiny, vzdělání a další), za které pojišťovna navyšuje úhradu (promítají se do KN).
+: Splněné ukazatele kvality a dostupnosti (ordinační hodiny, celoživotní vzdělávání, objednávkový systém a další), za které pojišťovna navyšuje úhradu. Mají dvojí přínos: vyšší hodnotu bodu na vykázané péči a vyšší koeficient navýšení (vyšší strop).
 
 ---
 
 ## Pojištěnci a náklady { #pojistenci }
 
 **Mimořádně nákladný pojištěnec (MNP)**
-: Pojištěnec, jehož úhrada překročí stanovený práh (5násobek PUROo). Péče o takového pojištěnce se hradí mimo strop – proto je výhodné je správně podchytit.
+: Pojištěnec, jehož úhrada překročí stanovený práh (5násobek PUROo; přesně na prahu je ještě základní). Jeho péče se ve stropu zohledňuje samostatným členem a nesnižuje prostor pro ostatní – proto je výhodné takové pojištěnce správně podchytit.
 
 **Kandidát na MNP**
 : Pojištěnec, který se prahu blíží (přibližně 80–99 % prahu). Doplněním indikované péče může práh překročit a přejít mezi mimořádně nákladné.
@@ -87,8 +102,11 @@ Tyto výrazy potkáte v modulu Plenia i na úředním vyúčtování od pojišť
 **Rekonciliace**
 : Porovnání vašeho výpočtu (z odeslaných dávek) s vyúčtováním pojišťovny. Ukáže případný rozpor – například že pojišťovna uznala méně pojištěnců, než jste vykázali.
 
-**Odvolání**
-: Podání proti vyúčtování. Modul k němu připraví podklad – ale jen tehdy, kdy rozpor skutečně omezuje vaši úhradu (jinak námitka nemá ekonomický smysl).
+**Námitka**
+: Podání proti ročnímu vyúčtování. Modul k němu připraví podklad (PDF) – ale jen tehdy, kdy rozpor skutečně omezuje vaši úhradu (jinak námitka nemá ekonomický smysl). Podklad nenahrazuje právní podání.
+
+**Uzávěrka**
+: Roční vypořádání v modulu – po nahrání ročního vyúčtování ukáže verdikt (akceptovat / prověřit / podat námitku), finále peněz (doplatek či vratka) a rekonciliaci hodnot.
 
 ---
 

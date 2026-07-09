@@ -118,10 +118,14 @@ nav:
     - Pacientské formuláře: portal/formulare.md
     - Plenia:
       - Přehled modulu: portal/plenia/index.md
+      - Rychlý průvodce: portal/plenia/rychly-pruvodce.md
       - Nahrávání dat: portal/plenia/nahravani-dat.md
+      - Kokpit a Cash-flow: portal/plenia/kokpit-cashflow.md
       - Maximální úhrada a strop: portal/plenia/maxu-cerpani.md
       - Pojištěnci a MNP: portal/plenia/pojistenci-mnp.md
       - Kontrola vykazování: portal/plenia/kontrola.md
+      - Plánování a simulace: portal/plenia/planovani-simulace.md
+      - Reporty a roční uzávěrka: portal/plenia/reporty-uzaverka.md
       - Nastavení a dodatky: portal/plenia/nastaveni-dodatky.md
       - Zkušební režim: portal/plenia/zkusebni-rezim.md
       - Slovníček pojmů: portal/plenia/slovnicek.md
