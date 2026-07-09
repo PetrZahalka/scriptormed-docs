@@ -1,0 +1,12 @@
+// Cloudflare Worker (static assets) pro docs.plenia.cz
+// Build: bash build-plenia.sh  →  Deploy: npx wrangler deploy
+// Web docs.scriptormed.com tento soubor nepoužívá (klasický Pages projekt s mkdocs build).
+{
+  "name": "plenia-docs",
+  "compatibility_date": "2026-07-09",
+  "assets": {
+    "directory": "./site-plenia",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  }
+}
