@@ -123,8 +123,9 @@ Po vypršení trialu (včetně ochranné lhůty do následujícího pracovního 
 
 !!! tip "Délka nahrávky"
     - Optimální délka: 3–15 minut
-    - Krátké nahrávky (<1 min) mohou obsahovat málo informací pro kvalitní zprávu
+    - Minimální délka je **10 sekund** — kratší nahrávku aplikace odmítne (neobsahuje dost informací pro kvalitní zprávu)
     - Maximální délka jednoho nahrávání je **30 minut** — po dosažení limitu se nahrávání automaticky zastaví a nahrávka se odešle ke zpracování
+    - Spojená vícesegmentová nahrávka (nahrávání s pauzami) může mít celkem nejvýše **2 hodiny**
 
 ### Kontrola mikrofonu { #kontrola-mikrofonu }
 

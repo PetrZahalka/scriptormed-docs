@@ -115,6 +115,7 @@ nav:
     - Registrace: portal/registrace.md
     - Předplatné a fakturace: portal/predplatne.md
     - Licenční klíče: portal/licencni-klice.md
+    - Zabezpečení účtu (2FA): portal/zabezpeceni.md
     - Pacientské formuláře: portal/formulare.md
     - Plenia:
       - Přehled modulu: portal/plenia/index.md

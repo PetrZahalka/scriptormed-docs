@@ -32,6 +32,9 @@ description: Jak nainstalovat ScriptorMed Desktop na Windows a macOS
 !!! warning "Windows SmartScreen"
     Varování se zobrazuje u nových aplikací, které ještě nemají dostatek instalací pro vytvoření reputace. Aplikace je bezpečná — podepsaná certifikátem Temvara Systems.
 
+!!! tip "Starší verze"
+    Stránka portálu **Stáhnout aplikaci** nabízí vedle nejnovější verze i rozbalovací sekci **Starší verze** (se seznamem změn u každé verze). Doporučujeme používat nejnovější; starší verzi instalujte jen po domluvě s podporou.
+
 ---
 
 ## macOS

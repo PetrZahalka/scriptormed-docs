@@ -22,12 +22,38 @@ description: Plány, ceny a správa předplatného ScriptorMed
 
 ## Modul Plenia (doplněk) { #uhrady }
 
-**Plenia** je doplňkový modul ScriptorMedu — analytika úhrad zdravotních pojišťoven (maximální úhrada, čerpání stropu, kontrola vykazování, rekonciliace s vyúčtováním). Podrobnosti najdete na [stránce modulu Plenia](https://www.scriptormed.com/plenia).
+**Plenia** je modul analytiky úhrad zdravotních pojišťoven (maximální úhrada, čerpání stropu, cash-flow, kontrola vykazování, roční uzávěrka). Lze ho používat i samostatně, bez klinické části — podrobnosti v [dokumentaci modulu Plenia](plenia/index.md).
 
-Ve **zkušebním režimu** si modul vyzkoušíte na ukázkových (anonymizovaných) datech a můžete nahrát **až 5 vlastních K-dávek**. Po aktivaci předplatného se ukázková data automaticky odstraní a nahrávání je neomezené.
+Ve **zkušebním režimu** si modul vyzkoušíte na ukázkových (anonymizovaných) datech a můžete nahrát i vlastní dávky VZP (z aktuálního roku období leden–květen, historické roky bez omezení) — viz [Zkušební režim](plenia/zkusebni-rezim.md). Při prvním nahrání vlastních dat se ukázková data automaticky odstraní.
 
 !!! info "Aktivace a cena"
-    Plenia je placený doplněk za **14 900 Kč/rok za ordinaci** (Temvara Systems s.r.o. je neplátce DPH, cena je konečná). Aktivaci zařídíte na vyžádání u podpory na [podpora@scriptormed.com](mailto:podpora@scriptormed.com).
+    Plenia stojí **14 900 Kč/rok za ordinaci** (Temvara Systems s.r.o. je neplátce DPH, cena je konečná). Předplatné aktivujete na portálu — platbou kartou nebo bankovním převodem; s aktivací kdykoli pomůže [podpora](../kontakt.md).
+
+### Balíček ScriptorMed + Plenia (−20 %) { #balicek }
+
+Klinickou část a Plenia lze pořídit společně jako **roční balíček** se slevou 20 % ze součtu ročních cen:
+
+| Balíček | Cena / rok |
+|---------|-----------|
+| Start + Plenia | 27 840 Kč |
+| Professional + Plenia | 39 840 Kč |
+| Team + Plenia | 55 840 Kč |
+
+- Balíček je pouze **roční**; platí se kartou, nebo převodem na jednu fakturu.
+- **Stávající zákazníci** klinické části mohou Plenia přidat kdykoli — do konce běžícího období se doplácí jen poměrná část (v balíčkové sazbě), od obnovy pak plný roční balíček. Oba moduly poté běží na stejné roční období.
+- Případný kampaňový slevový kód se uplatní navíc k balíčkové ceně.
+
+---
+
+## Doporučte kolegu { #doporuceni }
+
+Na portálu v sekci **Doporučení** najdete svůj **doporučující kód** a kopírovatelný odkaz. Když se přes něj zaregistruje jiná ordinace:
+
+- **Doporučená ordinace** získá **první fakturu předplatného zdarma** (100% sleva; platí pro předplatné, ne pro top-upy).
+- **Vy** získáte **kredit ve výši měsíčního paušálu** plánu, který si doporučená ordinace zvolí. Kredit se přizná po její první zaplacené nenulové faktuře a odečítá se z vašich dalších faktur (nevyplácí se v penězích).
+
+!!! info "Podmínky"
+    Nejvýše 12 odměn za kalendářní rok. Kód nelze uplatnit na vlastní ordinaci (shodné IČO nebo e-mail). Přehled přiznaných odměn vidíte v sekci Doporučení.
 
 ---
 
@@ -90,12 +116,21 @@ Top-upy lze zakoupit **platební kartou** přímo na portálu, nebo bankovním p
 
 ---
 
-## Změna plánu
+## Změna plánu { #zmena-planu }
 
 Plán můžete kdykoliv změnit na portálu:
 
 - **Upgrade** — vyšší plán se aktivuje okamžitě, rozdíl se doúčtuje poměrně
 - **Downgrade** — nižší plán se aktivuje na začátku dalšího fakturačního období
+
+!!! warning "Downgrade a počet zařízení"
+    Na nižší plán nelze přejít, dokud máte více aktivních zařízení, než nový plán dovoluje — portál zobrazí hlášku s počty. Nejprve odpojte přebývající zařízení v sekci [Licenční klíče](licencni-klice.md), pak downgrade projde.
+
+---
+
+## Pacientské formuláře podle plánu { #formulare }
+
+[Pacientské formuláře](formulare.md) jsou funkce vázaná na předplatné. Pokud je váš plán neobsahuje, portál formulářové sekce skryje a při pokusu o otevření zobrazí hlášku *„Pacientské formuláře nejsou součástí vašeho předplatného."* O jejich zapnutí požádejte [podporu](../kontakt.md).
 
 ---
 

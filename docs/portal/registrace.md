@@ -21,7 +21,7 @@ Registrace vytvoří účet pro vaši ordinaci a spustí zkušební období.
 <div class="step" markdown>
 <span class="step-number">2</span>
 <div class="step-content" markdown>
-**Vyplňte údaje ordinace** — název ordinace, IČO, kontaktní e-mail, telefon.
+**Vyplňte údaje ordinace** — název ordinace, IČO, kontaktní e-mail, telefon. Pokud vás doporučil kolega, zadejte jeho **doporučující kód** (nepovinné pole; při otevření registrace z doporučujícího odkazu se předvyplní samo) — získáte tím [první fakturu předplatného zdarma](predplatne.md#doporuceni).
 </div>
 </div>
 
@@ -45,6 +45,25 @@ Registrace vytvoří účet pro vaši ordinaci a spustí zkušební období.
 **Obdržíte licenční klíč** — po ověření e-mailu vám přijde uvítací e-mail s licenčním klíčem pro desktop aplikaci. Klíč se nezobrazuje ani neodesílá před ověřením e-mailu.
 </div>
 </div>
+
+---
+
+## Samostatná registrace Plenia { #plenia }
+
+Modul [Plenia](plenia/index.md) (analytika úhrad pojišťoven) lze registrovat i **samostatně, bez desktop aplikace** — funguje jen ve webovém prohlížeči. Registrace probíhá na adrese, na kterou odkazuje [plenia.cz](https://www.plenia.cz):
+
+1. Zadáte **IČO** (ověří se proti registru ARES), e-mail a heslo.
+2. Potvrdíte **ověřovací odkaz** z e-mailu a přihlásíte se do portálu.
+3. Nastavíte **dvoufaktorové ověření** — pro Plenia je povinné (modul pracuje s rodnými čísly pojištěnců). Viz [Zabezpečení účtu](zabezpeceni.md).
+4. Modul se otevře s ukázkovými daty a [zkušebním režimem](plenia/zkusebni-rezim.md).
+
+Žádný licenční klíč ani instalace nejsou potřeba. Klinická registrace (postup výše) zůstává beze změny.
+
+---
+
+## Přihlášení s dvoufaktorovým ověřením { #2fa-login }
+
+Pokud máte zapnuté [dvoufaktorové ověření](zabezpeceni.md), zadáte při přihlášení po hesle ještě 6místný kód z authenticator aplikace (nebo záložní kód). Na vlastním počítači můžete zaškrtnout **„Důvěřovat tomuto zařízení 30 dní"** — druhý faktor se pak na daném prohlížeči po tuto dobu znovu nevyžaduje.
 
 ---
 

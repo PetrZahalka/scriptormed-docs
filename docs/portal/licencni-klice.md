@@ -28,6 +28,7 @@ V sekci **Licenční klíče** na portálu vidíte:
 | **Stav** | Aktivní / Neaktivní / Volný |
 | **Registrace** | Datum prvního použití klíče |
 | **Poslední aktivita** | Datum poslední konzultace |
+| **Verze aplikace** | `Aktuální`, nebo `K dispozici novější (X)` — zda počítač běží na nejnovější verzi |
 
 ---
 
@@ -58,3 +59,6 @@ Plány Professional a Team umožňují připojení více zařízení:
 | Enterprise | Dohodou |
 
 Konzultace se čerpají ze **sdíleného poolu ordinace** — nezáleží na tom, ze kterého zařízení nahrávku odešlete.
+
+!!! warning "Downgrade plánu"
+    Na nižší plán nelze přejít, dokud máte aktivních více zařízení, než nový plán dovoluje. Nejprve zde přebývající zařízení odpojte — viz [Změna plánu](predplatne.md#zmena-planu).
