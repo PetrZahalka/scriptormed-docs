@@ -23,3 +23,10 @@ DOCS-UPDATE-CHECKLIST.md
 # Git internals (occasional leak to root)
 FETCH_HEAD
 .venv/
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
