@@ -11,7 +11,7 @@ Je určen lékaři a účetní ordinace. Odpovídá na otázky, na které se z p
 
 - Kolik nejvíc mi pojišťovna za rok zaplatí? (**maximální úhrada – MAXÚ**)
 - Blížím se ke stropu úhrad, nebo mám ještě rezervu?
-- Kolik peněz už reálně přišlo a **kdo mi co dluží**?
+- Kolik pojišťovny vyplácejí na zálohách a **jaký doplatek čekat po ročním vyúčtování**?
 - Kteří pojištěnci jsou mimořádně nákladní a co s tím?
 - Vykazuji v pořádku, nebo překračuji frekvenční omezení výkonů?
 - **Vyplatí se podepsat letošní úhradový dodatek?**
@@ -37,9 +37,9 @@ Plenia funguje jen ve webovém prohlížeči a lze ho používat i samostatně, 
 ## Postup práce v kostce { #postup }
 
 1. **Nahrajete data** – K-dávky (z ordinačního programu), faktury se zálohami a PDF vyúčtování či dodatky. Vše na jednom místě.
-2. **Doplníte zálohy a úřední sazby** – aby sedělo saldo a výpočet byl přesný a porovnatelný s pojišťovnou.
+2. **Doplníte zálohy a úřední sazby** – aby seděl očekávaný doplatek a výpočet byl přesný a porovnatelný s pojišťovnou.
 3. **Potvrdíte kompletní rok** – jakmile máte všech 12 měsíců, označíte rok jako úplný. Teprve pak se maximální úhrada počítá jako definitivní (do té doby je orientační).
-4. **Sledujete Kokpit** – čerpání stropu, očekávanou úhradu a saldo za všechny pojišťovny na jedné stránce.
+4. **Sledujete Kokpit** – čerpání stropu, odhad úhrady za vykázanou péči, zálohy a očekávaný doplatek za všechny pojišťovny na jedné stránce.
 5. **Identifikujete mimořádně nákladné pojištěnce** – a kandidáty, které se vyplatí do této skupiny doplnit.
 6. **Zkontrolujete vykazování** – frekvenční omezení, signální výkony a soulad s vyúčtováním pojišťovny.
 7. **Na konci roku uděláte uzávěrku** – nahrané roční vyúčtování modul zrekonciluje, dá verdikt a případně připraví podklad pro námitku.
@@ -52,7 +52,7 @@ O termíny se nemusíte bát: modul posílá **automatická e-mailová upozorně
 
 | Část | K čemu slouží |
 |------|---------------|
-| **Kokpit** | Vše na jedné stránce přes všechny pojišťovny – strop, čerpání, zaplaceno, saldo → [Kokpit a Cash-flow](kokpit-cashflow.md) |
+| **Kokpit** | Vše na jedné stránce přes všechny pojišťovny – strop, čerpání, zálohy, očekávaný doplatek → [Kokpit a Cash-flow](kokpit-cashflow.md) |
 | **Přehled** | Nahrání dat, pokrytí měsíců, maximální úhrada za každou pojišťovnu a rok → [Nahrávání dat](nahravani-dat.md) |
 | **Cash-flow** | Časová osa peněz – zálohy vs vykázaná péče, odhad doplatku → [Kokpit a Cash-flow](kokpit-cashflow.md#cashflow) |
 | **Čerpání stropu** | Kolik ze stropu je vyčerpáno, vývoj během roku a cesty optimalizace → [Maximální úhrada](maxu-cerpani.md) |

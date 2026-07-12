@@ -66,6 +66,19 @@ Jakmile máte všech 12 měsíců (zpracovaných nebo označených jako bez výk
 
 ---
 
+## Upozornění přímo v modulu { #upozorneni-modul }
+
+Na nedodělky vás Plenia upozorní i přímo v modulu – žlutým proužkem v záhlaví každé stránky, dokud problém trvá:
+
+- **chybějící K-dávky** za poslední uzavřený měsíc,
+- **nezadané splněné bonifikace** pro běžící rok,
+- **nezadané úřední referenční hodnoty** od pojišťovny,
+- doklady s číslem pojištěnce, ze kterého **nejde určit datum narození**.
+
+Tam, kde jde věc rovnou napravit, má upozornění odkaz **Vyřešit**, který vás zavede na správné místo.
+
+---
+
 ## E-mailová upozornění { #upozorneni }
 
 Na termíny nemusíte myslet – modul posílá na e-mail správce ordinace automatická upozornění:

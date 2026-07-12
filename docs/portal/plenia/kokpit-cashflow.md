@@ -11,16 +11,16 @@ Dvě obrazovky, které se dívají **přes všechny pojišťovny najednou** – 
 
 ## Kokpit { #kokpit }
 
-**Kokpit** je první stránka v navigaci modulu a odpovídá na otázku *„jak na tom letos celkově jsem a kdo mi co dluží"*. Nahoře je celkový roční souhrn a přepínač roku, pod ním řádek za každou pojišťovnu:
+**Kokpit** je první stránka v navigaci modulu a odpovídá na otázku *„jak na tom letos celkově jsem a co od pojišťoven ještě čekat"*. Nahoře je celkový roční souhrn a přepínač roku, pod ním karta za každou pojišťovnu:
 
 - **Maximální úhrada (MAXÚ)** a **čerpání stropu**,
-- **očekávaná úhrada** za rok,
-- **zaplaceno** – kolik už reálně přišlo,
-- **saldo** – kolik pojišťovna dluží (nebo přeplácí),
+- **úhrada za vykázanou péči (odhad)** – kolik by pojišťovna měla za vykázanou péči podle úhradové vyhlášky uhradit,
+- **zálohy za rok** – zadaný roční předpis předběžných úhrad, který pojišťovna vyplácí průběžně do konce roku (nejde o už přijaté platby),
+- **očekávaný doplatek při ročním vyúčtování** – rozdíl mezi odhadem a zálohami; u pojišťoven s nahraným ročním vyúčtováním se místo něj zobrazí **vyúčtování vs. odhad** (rozdíl je podnět ke kontrole, případně námitce),
 - **pokrytí dat** – které měsíce máte nahrané.
 
-!!! tip "Saldo potřebuje zálohy"
-    Saldo se zobrazuje jen u pojišťoven, kde jsou zadané zálohy nebo nahrané roční vyúčtování. Zálohy doplníte dávkou faktur (FDAVKA) nebo ručně v [Nastavení](nastaveni-dodatky.md#zalohy).
+!!! tip "Doplatek potřebuje zálohy"
+    Očekávaný doplatek se zobrazuje jen u pojišťoven, kde jsou zadané zálohy nebo nahrané roční vyúčtování. Zálohy doplníte dávkou faktur (FDAVKA) nebo ručně v [Nastavení](nastaveni-dodatky.md#zalohy).
 
 ---
 
@@ -28,7 +28,7 @@ Dvě obrazovky, které se dívají **přes všechny pojišťovny najednou** – 
 
 **Cash-flow** ukazuje peníze v čase, po měsících i za jednotlivé pojišťovny:
 
-- kolik peněz od pojišťoven **už reálně přišlo** (zálohy),
+- kolik pojišťovny podle zadaných záloh **průběžně vyplácejí**,
 - kolik péče je **vykázáno** (kumulativně),
 - kolik má za rok **celkem přijít** (očekávaná úhrada),
 - **odhad doplatku či vratky** po ročním vyúčtování.
@@ -36,7 +36,7 @@ Dvě obrazovky, které se dívají **přes všechny pojišťovny najednou** – 
 Kladný doplatek znamená, že pojišťovna po vyúčtování doplatí; záporný, že hrozí vratka.
 
 !!! warning "Bez záloh je křivka nulová"
-    Došlé peníze modul zná jen ze záloh, které nahrajete (FDAVKA) nebo zadáte ručně. Bez nich je křivka došlých peněz nulová a stránka na to upozorní.
+    Vyplácené zálohy modul zná jen z faktur (FDAVKA), které nahrajete, nebo z ručně zadaných hodnot. Bez nich je křivka úhrad nulová a stránka na to upozorní.
 
 !!! info "Průběžné saldo záloh"
     V běžícím roce jde o **průběžné saldo záloh** – definitivně se vyrovná až ročním vyúčtováním pojišťovny (do 150 dnů od konce roku).

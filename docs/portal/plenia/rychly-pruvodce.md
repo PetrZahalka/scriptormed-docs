@@ -19,7 +19,7 @@ Plenia funguje **jen ve webovém prohlížeči** – nic se neinstaluje.
 !!! info "Proč je dvoufaktorové ověření povinné"
     Plenia pracuje s rodnými čísly pojištěnců. Druhý faktor chrání tato citlivá data i v případě, že by uniklo vaše heslo. Na vlastním počítači můžete po ověření zaškrtnout „Důvěřovat tomuto zařízení 30 dní".
 
-Po registraci uvidíte modul s **ukázkovými (DEMO) daty** – můžete si všechny obrazovky projít nezávazně, ještě než nahrajete vlastní dávky. Viz [Zkušební režim](zkusebni-rezim.md).
+Po registraci obsahuje modul **testovací anonymizovaná data** – v záhlaví každé stránky na to upozorňuje červený banner **DEMO**. Všechny obrazovky si tak můžete projít nezávazně, ještě než nahrajete vlastní dávky. Viz [Zkušební režim](zkusebni-rezim.md).
 
 ---
 
@@ -37,7 +37,7 @@ Podrobně: [Nahrávání dat](nahravani-dat.md).
 
 ## 3. Doplňte zálohy a úřední sazby { #zalohy-sazby }
 
-Aby seděly peníze (saldo, cash-flow) a výpočet stropu:
+Aby seděly peníze (očekávaný doplatek, cash-flow) a výpočet stropu:
 
 - **Zálohy** – nahrajte dávky faktur (FDAVKA), nebo je zapište ručně do mřížky záloh v [Nastavení](nastaveni-dodatky.md).
 - **Úřední sazby** – nahrajte PDF s referenčními hodnotami či ročním vyúčtováním; modul z něj hodnoty rozpozná a vy je po kontrole uložíte do sazeb. Bez nich modul sazby odhaduje z vašich dat.
@@ -47,7 +47,7 @@ Aby seděly peníze (saldo, cash-flow) a výpočet stropu:
 
 ## 4. Přečtěte si Kokpit { #kokpit }
 
-Obrazovka **Kokpit** odpovídá na otázku „jak na tom letos celkově jsem": maximální úhrada a čerpání stropu za každou pojišťovnu, očekávaná úhrada, kolik už přišlo a **saldo** (kdo kolik dluží). Viz [Kokpit a Cash-flow](kokpit-cashflow.md).
+Obrazovka **Kokpit** odpovídá na otázku „jak na tom letos celkově jsem": maximální úhrada a čerpání stropu za každou pojišťovnu, odhad úhrady za vykázanou péči, zálohy za rok a **očekávaný doplatek** při ročním vyúčtování. Viz [Kokpit a Cash-flow](kokpit-cashflow.md).
 
 Odtud se doklikáte k detailům:
 
@@ -60,7 +60,7 @@ Odtud se doklikáte k detailům:
 ## 5. Měsíční rutina { #rutina }
 
 1. Po odeslání dávek pojišťovnám nahrajte tytéž soubory i do Plenia.
-2. Mrkněte na Kokpit – čerpání stropu a saldo.
+2. Mrkněte na Kokpit – čerpání stropu a očekávaný doplatek.
 3. O zbytek se postarají **automatická e-mailová upozornění**: chybějící dávka za minulý měsíc (po 15. dni) a čerpání stropu nad 85 % a nad 100 %.
 
 ---

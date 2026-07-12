@@ -11,7 +11,7 @@ Plenia si můžete vyzkoušet zdarma – nejdřív na **ukázkových (anonymizov
 
 ## Ukázková data { #ukazkova }
 
-Po registraci uvidíte upozornění **„Ukázková data (DEMO)"**. Na těchto datech jsou plně funkční všechny obrazovky – maximální úhrada, čerpání stropu, pojištěnci, výkony, kontrola i zálohy. Slouží k tomu, abyste viděli, jak modul pracuje, ještě před nahráním svých dávek.
+Po registraci se v záhlaví **každé stránky modulu** zobrazuje červený banner **DEMO – Testovací anonymizovaná data**, který připomíná, že zobrazené údaje nejsou skutečná data vaší ordinace; zůstává viditelný i na výtisku stránky. Na těchto datech jsou plně funkční všechny obrazovky – maximální úhrada, čerpání stropu, pojištěnci, výkony, kontrola i zálohy. Slouží k tomu, abyste viděli, jak modul pracuje, ještě před nahráním svých dávek.
 
 !!! warning "Ukázková data nejsou skutečná"
     Jde o smyšlené, anonymizované údaje – neodpovídají žádné reálné ordinaci ani pojištěnci a neslouží k rozhodování. Vaše skutečné výsledky uvidíte až nad vlastními daty.
@@ -35,7 +35,7 @@ Dávka mimo tento rozsah se při nahrání přeskočí s vysvětlující hlášk
 
 ## Přechod na vlastní data { #prechod }
 
-Při **prvním nahrání vlastních dat** se ukázková data automaticky odstraní – zůstanou jen vaše reálná. Demo a vaše data se nikdy nesmíchají.
+Při **prvním nahrání vlastních dat** se ukázková data automaticky odstraní – zůstanou jen vaše reálná a banner DEMO ze záhlaví zmizí. Demo a vaše data se nikdy nesmíchají.
 
 !!! info "Aktivace předplatného"
     Plenia je placený modul za **14 900 Kč/rok za ordinaci** (neplátce DPH, cena konečná). Předplatné aktivujete v portálu – platbou kartou nebo bankovním převodem; v kombinaci s klinickou částí ScriptorMed je k dispozici zvýhodněný roční balíček. S aktivací vám kdykoli pomůže [podpora](../../kontakt.md).

@@ -31,7 +31,7 @@ U každé pojišťovny a roku dále **zaškrtnete splněné bonifikace** – dip
 
 ## Zálohy { #zalohy }
 
-**Mřížka záloh** (řádky pojišťovny, sloupce měsíce 1–12) eviduje došlé předběžné úhrady. Vyplní se automaticky z nahraných dávek faktur (FDAVKA), nebo částky zapíšete ručně. Zálohy jsou nutné pro [saldo a Cash-flow](kokpit-cashflow.md) – bez nich modul neví, kolik peněz už přišlo.
+**Mřížka záloh** (řádky pojišťovny, sloupce měsíce 1–12) eviduje předběžné úhrady (zálohy) předepsané na rok. Vyplní se automaticky z nahraných dávek faktur (FDAVKA), nebo částky zapíšete ručně. Zálohy jsou nutné pro [očekávaný doplatek a Cash-flow](kokpit-cashflow.md) – bez nich modul neví, kolik pojišťovna na zálohách vyplácí.
 
 ---
 

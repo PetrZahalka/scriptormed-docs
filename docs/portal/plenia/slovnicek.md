@@ -29,8 +29,8 @@ Tyto výrazy potkáte v modulu Plenia i na úředním vyúčtování od pojišť
 **Zálohy (předběžná úhrada)**
 : Měsíční platby, které pojišťovna posílá v průběhu roku. Do modulu se dostanou z dávek faktur (FDAVKA) nebo ručním zápisem; definitivně se vyrovnají ročním vyúčtováním.
 
-**Saldo**
-: Rozdíl mezi tím, co vám za rok náleží, a tím, co pojišťovna zatím zaplatila. V běžícím roce jde o průběžné saldo záloh.
+**Očekávaný doplatek (saldo)**
+: Rozdíl mezi odhadem úhrady za vykázanou péči a zálohami předepsanými na rok. V Kokpitu se zobrazuje jako „očekávaný doplatek při ročním vyúčtování"; definitivní částku určí až roční vyúčtování pojišťovny.
 
 ---
 
