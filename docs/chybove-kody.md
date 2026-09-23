@@ -34,6 +34,8 @@ Kódy jsou **trvalé** — jednou přidělený kód není nikdy znovu použit. Z
 | `PIPE` | Obecný pipeline | uživatel |
 | `SAVE` | Uložení výsledku | uživatel |
 | `LIC` | Licencování | uživatel |
+| `MACRO` | Makra doporučení dle diagnózy | uživatel |
+| `DEMO` | Ukázková zpráva | uživatel |
 | `UHRADY` | Modul Plenia — zpracování K-dávek | uživatel |
 | `AUTH` | Autentizace | interní |
 | `EMAIL` | Doručování e-mailů | interní |
@@ -184,6 +186,29 @@ Chyby související s licenčním klíčem, zařízením a limity účtu.
 | `SM-LIC-009` | Konzultace vyčerpány. | Ne | 429 |
 | `SM-LIC-010` | Překročen limit uvolnění zařízení. | Ne | 429 |
 | `SM-LIC-011` | Překročen denní limit zasílání klíče. | Ne | 429 |
+
+---
+
+### MACRO — Makra doporučení dle diagnózy { #macro }
+
+Chyby při správě a importu maker v [Nastavení → Doporučení dle diagnózy](desktop/nastaveni.md#doporuceni-dle-diagnozy).
+
+| Kód | Zpráva | Znovu odeslat? | HTTP |
+|-----|--------|:--------------:|:----:|
+| `SM-MACRO-001` | Dosažen limit počtu maker (max 30 na ordinaci). | Ne | 400 |
+| `SM-MACRO-002` | Název, kód nebo klíčové slovo makra obsahuje nepovolený text. | Ne | 422 |
+| `SM-MACRO-003` | Denní limit pro import maker byl vyčerpán (max 3× za den). Zkuste to zítra. | Ano | 429 |
+| `SM-MACRO-004` | Ve vloženém textu se nepodařilo rozpoznat žádné makro. | Ne | 422 |
+| `SM-MACRO-005` | Rozpoznání maker selhalo — zkuste to znovu. | Ano | 502 |
+
+### DEMO — Ukázková zpráva { #demo }
+
+Chyby při generování [ukázkové zprávy](desktop/nahravani.md#ukazkova-zprava).
+
+| Kód | Zpráva | Znovu odeslat? | HTTP |
+|-----|--------|:--------------:|:----:|
+| `SM-DEMO-001` | Limit ukázkových zpráv byl vyčerpán. | Ne | 429 |
+| `SM-DEMO-002` | Ukázka pro vaši odbornost zatím není k dispozici. | Ne | 503 |
 
 ---
 

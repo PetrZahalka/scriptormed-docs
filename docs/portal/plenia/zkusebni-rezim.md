@@ -13,6 +13,8 @@ Plenia si můžete vyzkoušet zdarma – nejdřív na **ukázkových (anonymizov
 
 Po registraci se v záhlaví **každé stránky modulu** zobrazuje červený banner **DEMO – Testovací anonymizovaná data**, který připomíná, že zobrazené údaje nejsou skutečná data vaší ordinace; zůstává viditelný i na výtisku stránky. Na těchto datech jsou plně funkční všechny obrazovky – maximální úhrada, čerpání stropu, pojištěnci, výkony, kontrola i zálohy. Slouží k tomu, abyste viděli, jak modul pracuje, ještě před nahráním svých dávek.
 
+Ukázková data pokrývají pojišťovny **VZP a OZP za roky 2024 a 2025** (kompletní roky).
+
 !!! warning "Ukázková data nejsou skutečná"
     Jde o smyšlené, anonymizované údaje – neodpovídají žádné reálné ordinaci ani pojištěnci a neslouží k rozhodování. Vaše skutečné výsledky uvidíte až nad vlastními daty.
 
@@ -39,6 +41,14 @@ Při **prvním nahrání vlastních dat** se ukázková data automaticky odstran
 
 !!! info "Aktivace předplatného"
     Plenia je placený modul za **14 900 Kč/rok za ordinaci** (neplátce DPH, cena konečná). Předplatné aktivujete v portálu – platbou kartou nebo bankovním převodem; v kombinaci s klinickou částí ScriptorMed je k dispozici zvýhodněný roční balíček. S aktivací vám kdykoli pomůže [podpora](../../kontakt.md).
+
+---
+
+## Plenia a klinický ScriptorMed jsou dva produkty { #dva-produkty }
+
+**Plenia** a klinická část ScriptorMed (diktování a nahrávání konzultací v desktopové aplikaci) jsou dva samostatné produkty s vlastním předplatným – jeden se neplatí druhým.
+
+Pokud vám vyprší **klinický** zkušební trial ScriptorMedu nebo zůstane nezaplacená faktura klinické části, **Plenia funguje dál** a do portálu se přihlásíte normálně. Mimo provoz je jen klinická část (nahrávání v desktopové aplikaci) – portál vás na to upozorní bannerem (žlutá lišta „Klinická část účtu je neaktivní (vypršelý trial nebo nezaplacená faktura). Plenia funguje dál.") s odkazem **Aktivovat předplatné**.
 
 ---
 

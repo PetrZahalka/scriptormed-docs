@@ -60,6 +60,33 @@ V nastavení naleznete textové pole pro vložení vzoru vaší typické klinick
 
 ---
 
+## Doporučení dle diagnózy { #doporuceni-dle-diagnozy }
+
+V sekci **Nastavení → Formát výstupní zprávy → Doporučení dle diagnózy** si můžete nadefinovat vlastní **makra doporučení** — když v diktátu explicitně vyslovíte diagnózu, aplikace do sekce Doporučení vygenerované zprávy vloží text makra **doslovně** (text nikdy neprochází jazykovým modelem, takže se nezmění ani neparafrázuje).
+
+### Co makro obsahuje
+
+- **Název** — pro vaši orientaci v seznamu
+- **MKN-10 kódy** — diagnózy, na které se makro váže
+- **Klíčová slova** — alternativní výrazy, kterými diagnózu v diktátu vyslovujete
+- **Text doporučení** — vkládá se doslovně do zprávy
+
+### Správa maker
+
+1. Otevřete **Nastavení → Formát výstupní zprávy**
+2. V sekci **Doporučení dle diagnózy** makro přidejte, upravte, dočasně vypněte nebo smažte (smazání vyžaduje potvrzení)
+
+Limity: max **30 maker** na ordinaci, text doporučení max **2000 znaků**, max **5 MKN-10 kódů** a **10 klíčových slov** na jedno makro.
+
+### Import z výpisu AIS
+
+Makra můžete hromadně vložit z výpisu vašeho ambulantního informačního systému (AIS). Import má **povinný náhled** — nic se neuloží bez vašeho potvrzení, jednotlivá rozpoznaná makra můžete před uložením upravit nebo vyřadit. Import lze spustit nejvýše **3× denně**.
+
+!!! info "Kde vidíte, že se makro použilo"
+    Pokud se do zprávy vložilo makro, nad textem zprávy v detailu konzultace uvidíte informační řádek „Vloženo makro: <název>" — mimo kopírovaný text zprávy.
+
+---
+
 ## Informace o licenci { #licencni-klic }
 
 V nastavení se zobrazují informace o vaší licenci:
@@ -82,6 +109,15 @@ Lokální audio soubory na vašem počítači se automaticky mažou po uplynutí
     Výsledné zprávy v historii konzultací zůstávají dostupné na vašem počítači nezávisle na tomto nastavení.
 
 Aktuální využití disku vidíte v sekci **Využití disku** v nastavení.
+
+### Anonymní statistiky využití { #anonymni-statistiky }
+
+V sekci **Nastavení → Ukládání** najdete přepínač **„Odesílat anonymní statistiky využití"** (výchozí stav: zapnuto). Aplikace nám pomáhá zjistit, kde se nahrávky ztrácejí — odesílá se pouze to, co jste v aplikaci udělali (spustil jsem nahrávání, odeslal, otevřel zprávu, zkopíroval).
+
+!!! info "Nikdy žádný obsah"
+    Odesílají se jen metadata o použití aplikace — **nikdy obsah**: žádný text zprávy ani přepisu, žádná jména pacientů, žádný název konzultace. Statistiky se týkají vás jako uživatele aplikace, ne vašich pacientů.
+
+Přepínač můžete kdykoli vypnout v **Nastavení → Ukládání**.
 
 ---
 

@@ -26,11 +26,21 @@ Dvě obrazovky, které se dívají **přes všechny pojišťovny najednou** – 
 
 ## Cash-flow { #cashflow }
 
-**Cash-flow** ukazuje peníze v čase, po měsících i za jednotlivé pojišťovny:
+**Cash-flow** ukazuje celý řetěz od vykázané péče k penězům, per pojišťovnu i za všechny dohromady:
+
+**vykázaná péče → nad stropem (MAXÚ) → úhrada za vykázanou péči → zálohy / vyúčtování → doplatek (dluží/přeplaceno)**
+
+U každé pojišťovny vidíte i **rozklikávací měsíční rozpad** a graf s křivkou „z toho do stropu" a čarou maximální úhrady (MAXÚ).
+
+!!! warning "Co pojišťovna dluží, není vykázaná péče minus zaplaceno"
+    Na tomhle rozdílu lékaři nejčastěji chybují. **Maximální úhrada (MAXÚ) je strop** – péči nad ním pojišťovna nezaplatí, i když jste ji vykázali. Přesah stropu je tedy **ztráta, ne pohledávka**. Proto Cash-flow ukazuje obě čísla vedle sebe: kolik jste vykázali celkem a kolik z toho je nad stropem (a pojišťovna to nezaplatí). Skutečně dluženou částku spočítáte až z **úhrady za vykázanou péči** (péče do stropu) minus zálohy.
+
+!!! info "Měsíční rozpad je bez ZÚM/ZÚLP"
+    Měsíční křivky a měsíční rozpad **neobsahují zvlášť účtovaný materiál a léčiva (ZÚM/ZÚLP)** – ta jsou v datech evidovaná za celý rok, ne po měsících. Součet měsíců se proto **nemusí přesně sečíst** na roční čísla z [Čerpání stropu](maxu-cerpani.md#cerpani). Roční čísla jsou ta přesná.
 
 - kolik pojišťovny podle zadaných záloh **průběžně vyplácejí**,
-- kolik péče je **vykázáno** (kumulativně),
-- kolik má za rok **celkem přijít** (očekávaná úhrada),
+- kolik péče je **vykázáno** (kumulativně) a kolik z toho je **nad stropem**,
+- kolik má za rok **celkem přijít** (úhrada za vykázanou péči do stropu),
 - **odhad doplatku či vratky** po ročním vyúčtování.
 
 Kladný doplatek znamená, že pojišťovna po vyúčtování doplatí; záporný, že hrozí vratka.

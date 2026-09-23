@@ -5,7 +5,7 @@ description: Jak do modulu Plenia odeslat K-dávky, faktury a PDF vyúčtování
 
 # Nahrávání dat
 
-Veškerá data nahráváte na jednom místě – v **Přehledu**. Modul podle obsahu sám pozná, o jaký soubor jde, kterou pojišťovnu a období se týká. Nic nevyplňujete ručně.
+Veškerá data nahráváte na jednom místě – v **Nastavení**. Modul podle obsahu sám pozná, o jaký soubor jde, kterou pojišťovnu a období se týká. Nic nevyplňujete ručně.
 
 ---
 
@@ -87,6 +87,9 @@ Na termíny nemusíte myslet – modul posílá na e-mail správce ordinace auto
 - **Čerpání stropu** – při překročení 85 % a 100 % maximální úhrady.
 
 Každá událost se hlásí jen jednou a upozornění chodí pouze při práci s reálnými daty (ukázkový režim se nenotifikuje).
+
+!!! tip "Odkaz vede přímo na akci"
+    Upozornění na chybějící K-dávky (banner v modulu i e-mail) odkazuje **rovnou na nahrání dat v Nastavení**. Odkaz rozlišuje mezi dvěma akcemi: buď dávku v Nastavení nahrajete, nebo v [Přehledu](#pokryti) měsíc označíte jako „bez výkonů", pokud jste v něm záměrně nic nevykázali.
 
 ---
 

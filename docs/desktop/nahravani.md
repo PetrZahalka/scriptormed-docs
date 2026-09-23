@@ -100,6 +100,19 @@ Po vypršení trialu (včetně ochranné lhůty do následujícího pracovního 
 
 ---
 
+## Ukázková zpráva { #ukazkova-zprava }
+
+Na hlavní obrazovce najdete tlačítko **„Zobrazit ukázkovou zprávu"** — vygeneruje během pár vteřin vzorovou klinickou zprávu ve formátu vaší odbornosti, **bez pacienta a bez nahrávání zvuku**. Hodí se pro rychlý náhled toho, jak výstup vypadá, zejména při onboardingu nebo po úpravě formátu zprávy.
+
+Pokud si v [Nastavení](nastaveni.md#prizpusobeni-vystupu) upravíte formát zprávy podle svého vzoru, aplikace vám rovnou nabídne zobrazit ukázku v novém formátu.
+
+Ukázkové zprávy zůstávají v historii konzultací označené štítkem **„Demo"**, takže je snadno odlišíte od skutečných konzultací.
+
+!!! info "Nezapočítává se do limitů"
+    Ukázkové zprávy se nezapočítávají do limitu konzultací ani do fakturace. V rámci trialu můžete vygenerovat max **3 ukázky**, dále vždy **1 ukázku na každou verzi formátu zprávy** (změna formátu v Nastavení odemkne novou ukázku), s tvrdým stropem **10 ukázek za 30 dní**.
+
+---
+
 ## Tipy pro kvalitní nahrávku
 
 !!! tip "Mikrofon"

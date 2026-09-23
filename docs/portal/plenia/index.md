@@ -53,7 +53,7 @@ O termíny se nemusíte bát: modul posílá **automatická e-mailová upozorně
 | Část | K čemu slouží |
 |------|---------------|
 | **Kokpit** | Vše na jedné stránce přes všechny pojišťovny – strop, čerpání, zálohy, očekávaný doplatek → [Kokpit a Cash-flow](kokpit-cashflow.md) |
-| **Přehled** | Nahrání dat, pokrytí měsíců, maximální úhrada za každou pojišťovnu a rok → [Nahrávání dat](nahravani-dat.md) |
+| **Přehled** | Pokrytí měsíců a maximální úhrada za každou pojišťovnu a rok → [Nahrávání dat](nahravani-dat.md) |
 | **Cash-flow** | Časová osa peněz – zálohy vs vykázaná péče, odhad doplatku → [Kokpit a Cash-flow](kokpit-cashflow.md#cashflow) |
 | **Čerpání stropu** | Kolik ze stropu je vyčerpáno, vývoj během roku a cesty optimalizace → [Maximální úhrada](maxu-cerpani.md) |
 | **Pojištěnci** | Rozdělení pojištěnců do zón a identifikace mimořádně nákladných → [Pojištěnci a MNP](pojistenci-mnp.md) |

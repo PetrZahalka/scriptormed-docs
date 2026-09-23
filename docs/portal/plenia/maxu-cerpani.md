@@ -58,6 +58,35 @@ Kliknutím na kód otevřete **detail výkonu**: měsíční průběh vykazován
 !!! tip "Názvy výkonů"
     U kódů se zobrazuje název podle Seznamu zdravotních výkonů, takže nemusíte kódy dohledávat.
 
+### Výběr výkonů { #vyber-vykonu }
+
+Seznam výkonů je **řazený podle kódu** a má **vyhledávací pole**, které průběžně filtruje podle kódu i názvu. Odkazy **vybrat zobrazené** a **odznačit vše** usnadní hromadný výběr. Pro rychlejší orientaci jsou k dispozici i předpřipravené **skupiny výkonů** (nabízejí se jen ty, které máte v daném roce vykázané):
+
+- Lymfologie
+- Vyšetření
+- Dermatoskopie
+- Malé výkony
+- Rány a komprese
+- Signální a distanční
+- Všechny výkony
+
+#### Uložené filtry { #ulozene-filtry }
+
+Vybrané výkony lze uložit pod vlastním názvem – filtr se sdílí v rámci celé ordinace, takže ho vidí i kolegové. Příště stačí kliknout na uložený filtr (chip) a výběr se obnoví. Uložení pod stejným názvem dřívější filtr přepíše.
+
+!!! tip "Podklad na provozní schůzku"
+    Typický postup: do vyhledávání napíšete kód nebo část názvu, vyberete zobrazené výkony, výběr uložíte jako pojmenovaný filtr (např. „Lymfo – schůzka"). Graf se nad 8 vybraných výkonů přepne na součet výběru, aby zůstal čitelný – podrobný rozpad zůstává v tabulce a v CSV.
+
+### Rozpad po měsících { #rozpad-mesice }
+
+Karta **„Rozpad po měsících"** umožňuje u vybraných výkonů (checkboxy) zobrazit:
+
+- **sloupcový graf po měsících** s přepínačem **počty / koruny**,
+- **matici kód × I–XII**, kde každá buňka nese počet i Kč (v tooltipu),
+- **součtové řádky**.
+
+Tlačítkem **stáhnout CSV** exportujete data (otevře se v Excelu), tlačítkem **PDF report** stáhnete graf i tabulku po měsících k vytištění nebo sdílení na provozní schůzce – PDF report **neobsahuje rodná čísla**.
+
 ---
 
 ## Související { #souvisejici }
